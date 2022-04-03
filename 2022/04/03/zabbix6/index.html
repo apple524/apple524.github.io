@@ -4,8 +4,13 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Game &amp; Watch 刷机完全教程, game,zabbix,linux">
-    <meta name="description" content="#安装Ubuntu系统   推荐用电脑安装Ubuntu系统来对Game &amp;amp; Watch进行刷机，这样速度会比用树莓派搭建的系统快很多   安装Ubuntu系统的教程就自行网上查找，不在赘述#准备工作  安装所需软件  sudo ap">
+    <meta name="keywords" content="Zabbix6安装教程, game,zabbix,linux">
+    <meta name="description" content="####一、Centos8 为最小安装模式
+
+关闭防火墙
+
+systemctl stop firewalld.service      #停止firewalld服务
+systemctl disable firewalld.service  ">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -19,7 +24,7 @@
 
     
 
-    <title>Game &amp; Watch 刷机完全教程 | apple524</title>
+    <title>Zabbix6安装教程 | apple524</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
@@ -309,12 +314,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://cf-ipfs.com/ipfs/QmVeTaz5xVSu2ybw7TjZ9cWseGXSnbry6Pzr9VA5Bqd5g8')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://cf-ipfs.com/ipfs/QmPwXSVHnUKX4fTY2EF5ndkvUxn9bYsba7QrhWEa5UXk2D')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Game &amp; Watch 刷机完全教程</h1>
+                    <h1 class="description center-align post-title">Zabbix6安装教程</h1>
                 </div>
             </div>
         </div>
@@ -430,12 +435,12 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/game-watch/">
-                                <span class="chip bg-color">game&amp;watch</span>
+                            <a href="/tags/zabbix/">
+                                <span class="chip bg-color">zabbix</span>
                             </a>
                         
-                            <a href="/tags/%E7%A0%B4%E8%A7%A3/">
-                                <span class="chip bg-color">破解</span>
+                            <a href="/tags/centos/">
+                                <span class="chip bg-color">centos</span>
                             </a>
                         
                     </div>
@@ -446,16 +451,12 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/%E6%B8%B8%E6%88%8F/" class="post-category">
-                                游戏
+                            <a href="/categories/zabbix/" class="post-category">
+                                zabbix
                             </a>
                         
-                            <a href="/categories/%E6%B8%B8%E6%88%8F/%E7%A0%B4%E8%A7%A3/" class="post-category">
-                                破解
-                            </a>
-                        
-                            <a href="/categories/%E6%B8%B8%E6%88%8F/%E7%A0%B4%E8%A7%A3/game-watch/" class="post-category">
-                                game&watch
+                            <a href="/categories/zabbix/centos/" class="post-category">
+                                centos
                             </a>
                         
                     </div>
@@ -488,39 +489,47 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>#安装Ubuntu系统<br>   推荐用电脑安装Ubuntu系统来对Game &amp; Watch进行刷机，这样速度会比用树莓派搭建的系统快很多<br>   安装Ubuntu系统的教程就自行网上查找，不在赘述<br>#准备工作<br>  安装所需软件<br>  <code>sudo apt-get install binutils-arm-none-eabi python3 libftdi1 libc6-i386 libusb-1.0-0-dev libftdi-dev -y</code></p>
-<h4 id="安装openOCD"><a href="#安装openOCD" class="headerlink" title="安装openOCD (-)"></a>安装openOCD (-)</h4><ol>
-<li>下载相关库：<br><code>sudo apt-get install build-essential pkg-config autoconf automake libtool libusb-dev libusb-1.0-0-dev libhidapi-dev -y</code><br><code>sudo apt-get install libtool libsysfs-dev libftdi1-2 -y</code></li>
-<li>安装openocd：<br><code>#wget https://nightly.link/kbeckmann/ubuntu-openocd-git-builder/workflows/docker/master/openocd-git.deb.zip</code><br><code>#unzip openocd-git.deb.zip</code><br><code>sudo dpkg -i openocd-git_*_amd64.deb</code><br><code>sudo apt-get -y -f install</code><br><code>export OPENOCD=&quot;/opt/openocd-git/bin/openocd&quot; 或者 </code>sudo vim &#x2F;etc&#x2F;profile<code> </code>export PATH&#x3D;$PATH:&#x2F;opt&#x2F;openocd-git&#x2F;bin&#x2F;<code> </code>source ~&#x2F;.bashrc&#96;<h4 id="安装-arm-gcc-none-eabi-toolchain-10-2-0及以上版本"><a href="#安装-arm-gcc-none-eabi-toolchain-10-2-0及以上版本" class="headerlink" title="安装 arm-gcc-none-eabi toolchain. 10.2.0及以上版本 (-)"></a>安装 arm-gcc-none-eabi toolchain. 10.2.0及以上版本 (-)</h4><pre><code>`#sudo apt install libncurses-dev`
-`#sudo apt-get install lsb-core -y`
-</code></pre>
-<h4 id="安装安装备份破解模块"><a href="#安装安装备份破解模块" class="headerlink" title="安装安装备份破解模块 (-)"></a>安装安装备份破解模块 (-)</h4><pre><code>`#git clone https://github.com/ghidraninja/game-and-watch-backup`
-</code></pre>
+                <p>####一、Centos8 为最小安装模式</p>
+<ul>
+<li><p>关闭防火墙</p>
+<ul>
+<li>systemctl stop firewalld.service      #停止firewalld服务</li>
+<li>systemctl disable firewalld.service    #设置开机默认不启动</li>
+</ul>
 </li>
-</ol>
-<h4 id="安装game-and-watch-retro-go程序"><a href="#安装game-and-watch-retro-go程序" class="headerlink" title="安装game-and-watch-retro-go程序 (-)"></a>安装game-and-watch-retro-go程序 (-)</h4><pre><code>`#git clone https://github.com/olderzeus/game-and-watch-retro-go`
-强烈推荐使用这个github的发布，带封面，优化效果好！！！
-</code></pre>
-<h4 id="安装双系统补丁"><a href="#安装双系统补丁" class="headerlink" title="安装双系统补丁 (-)"></a>安装双系统补丁 (-)</h4><pre><code>`git clone https://github.com/BrianPugh/game-and-watch-patch`
-</code></pre>
-<p>至此软件部分的工作完成</p>
-<p>#硬件破解<br>使用stlinkV2 连接到Game&amp;Watch设备，连接对应引脚如下图所示<br><img src="https://cf-ipfs.com/ipfs/QmaKNkvDDs4B68vQqaDztKRxjiRkibwg2gzVqk7uRTCdQe"></p>
-<h4 id="刷机步骤"><a href="#刷机步骤" class="headerlink" title="刷机步骤 (-)"></a>刷机步骤 (-)</h4><ol>
-<li>进入game-and-watch-backup程序 备份并破解原始固件</li>
-<li><code>./1_sanity_check.sh stlink mario(zelda)</code><br>   执行健全性检查并确保所有必需的工具都可用 显示Looks good！表示软件都正常部署</li>
-<li><code>./2_backup_flash.sh stlink mario</code><br>  备份 SPI 闪存的内容，不修改设备内容，在Game&amp;Watch时钟画面进行，备份不成功可以多尝试几次</li>
-<li><code>./3_backup_internal_flash.sh stlink mario(zelda)</code><br>  备份内部闪存。为此，需要修改 SPI闪存的内容。您的设备将停止工作，直到它在第 5 步中恢复<br>  备份中药断电再开建议见个秒以上，出现蓝屏画面按Enter继续，如果没有显示蓝屏，按下主机上的TIME键从新开始</li>
-<li><code>./4_unlock_device.sh stlink mario(zelda)</code><br>  这将禁用主动读取保护。这将擦除 STM32 的内部闪存</li>
-<li><code>./5_restore.sh stlink mario(zelda)</code><br>  这将恢复原始固件</li>
-</ol>
-<p>以上步骤完成后，会在game-and-watch-backup&#x2F;backups 目录下得到 flash_backup_mario.bin、internal_flash_backup_mario.bin、itcm_backup_mario.bin 三个文件，请妥善保存。</p>
-<h4 id="安装模拟器"><a href="#安装模拟器" class="headerlink" title="安装模拟器 (-)"></a>安装模拟器 (-)</h4><p>进入 game-and-watch-retro-go模拟器目录<br><img src="https://cf-ipfs.com/ipfs/QmajDf5VqxkxuMAKkfHTrUEoy6ues8hnEmUAx55yRPTKqf"><br>将游戏按照不同的类型放置到相应的游戏目录下面(游戏名字和对应的封面照片文件名相同)<br>修改每个模拟器下面的 json 文件<br><img src="https://cf-ipfs.com/ipfs/QmcpEGQXnmfzoPa3werUEYtFfUtmj1jhUk67Q6LHFNVjG6"><br>类似这样</p>
-<p>确认以上文件都放置正常位置以后就可以开始编译系统了<br>运行以下命令：<br>    <code>make clean</code><br>    <code>make romdef</code><br>    <code>make -j8 EXTFLASH_SIZE_MB=63 EXTFLASH_OFFSET=1048576 INTFLASH_BANK=2 CODEPAGE=936   COVERFLOW=1 GNW_TARGET=mario GAME_GENIE=1 flash</code><br>    请根据自身机器调整各项参数</p>
-<h4 id="安装双系统补丁-1"><a href="#安装双系统补丁-1" class="headerlink" title="安装双系统补丁 (-)"></a>安装双系统补丁 (-)</h4><p>进入 game-and-watch-patch 目录安装双系统补丁<br>将game-and-watch-backup 程序备份的系统文件复制到game-and-watch-patch目录下面<br>运行以下命令：<br>    <code>make clean</code><br>    <code>make PATCH_PARAMS=&quot;--device=mario --internal-only&quot; flash_patched</code><br>    <code>make PATCH_PARAMS=&quot; --smb1=path-to-patched-smb1-rom.nes&quot; flash_patched</code></p>
-<p>至此全部安装工作完成</p>
-<p><img src="https://cf-ipfs.com/ipfs/QmYLZd1J59s1a48mKdpJxxSTAB1p5zijnbHqppXiQdiyKa"></p>
-<p><img src="https://cf-ipfs.com/ipfs/QmbSoSURpJjGVWNa2HEApHyjGffa5okxop8uLo8m74Y997"></p>
-<p>感谢以下资料：<br>(<a target="_blank" rel="noopener" href="https://github.com/kbeckmann/game-and-watch-retro-go">https://github.com/kbeckmann/game-and-watch-retro-go</a>)<br>(<a target="_blank" rel="noopener" href="https://github.com/olderzeus/game-and-watch-retro-go">https://github.com/olderzeus/game-and-watch-retro-go</a>)<br>(<a target="_blank" rel="noopener" href="https://github.com/BrianPugh/game-and-watch-patch">https://github.com/BrianPugh/game-and-watch-patch</a>)</p>
+<li><p>或者生产环境单独在防火墙上开启端口和策略</p>
+<ul>
+<li>firewall-cmd –permanent –zone&#x3D;public –add-port&#x3D;80&#x2F;tcp</li>
+<li>firewall-cmd –reload<br>####二、关闭selinux</li>
+</ul>
+</li>
+<li><p>getenforce    #查看状态<br>  vi &#x2F;etc&#x2F;sysconfig&#x2F;selinux    #开机不启动<br>  SELINUX&#x3D;disabled<br>####三、安装zabbix6.0源</p>
+</li>
+<li><p>rpm -Uvh <a target="_blank" rel="noopener" href="https://repo.zabbix.com/zabbix/6.0/rhel/8/x86_64/zabbix-release-6.0-1.el8.noarch.rpm">https://repo.zabbix.com/zabbix/6.0/rhel/8/x86_64/zabbix-release-6.0-1.el8.noarch.rpm</a></p>
+</li>
+<li><p>dnf clean all      *清理yum缓存<br>####四、安装zabbix6.0服务端和客户端</p>
+</li>
+<li><p>dnf install zabbix-server-mysql zabbix-web-mysql zabbix-apache-conf zabbix-sql-scripts zabbix-selinux-policy zabbix-agent -y</p>
+<p>  如果提示：错误：为仓库 ‘appstream’ 下载元数据失败 : Cannot prepare internal mirrorlist: No URLs in mirrorlist<br>  请更换centos8的源</p>
+</li>
+</ul>
+<p>####五、配置数据库</p>
+<ul>
+<li><p>1.安装MariaDB<br>  注意：MariaDB要10.5以上版本，不然会不能启动<br>  <img src="https://cf-ipfs.com/ipfs/QmVJ2Ri64NtLXd2dV8oK6ChEvRQCYJEGQtW9d6C5puzyFx"></p>
+</li>
+<li><p>2.新建一个 MariaDB.repo<br>  MariaDB 10.5 CentOS repository list - created 2022-02-21 03:48 UTC<br>  <a target="_blank" rel="noopener" href="https://mariadb.org/download/">https://mariadb.org/download/</a><br>  [mariadb]<br>  name &#x3D; MariaDB<br>  baseurl &#x3D; <a target="_blank" rel="noopener" href="https://ftp.ubuntu-tw.org/mirror/mariadb/yum/10.5/centos8-amd64">https://ftp.ubuntu-tw.org/mirror/mariadb/yum/10.5/centos8-amd64</a><br>  module_hotfixes&#x3D;1<br>  gpgkey&#x3D;<a target="_blank" rel="noopener" href="https://ftp.ubuntu-tw.org/mirror/mariadb/yum/RPM-GPG-KEY-MariaDB">https://ftp.ubuntu-tw.org/mirror/mariadb/yum/RPM-GPG-KEY-MariaDB</a><br>  gpgcheck&#x3D;1<br>放到 &#x2F;etc&#x2F;yum.repos.d&#x2F;</p>
+</li>
+<li><p>3.创建初始数据库<br>  mysql -uroot -p<br>  password<br>  mysql&gt; create database zabbix character set utf8 collate utf8_bin;<br>  mysql&gt; create user zabbix@localhost identified by ‘password’;<br>  mysql&gt; grant all privileges on zabbix.* to zabbix@localhost;<br>  mysql&gt; quit;</p>
+</li>
+<li><p>4.导入初始架构和数据<br>  zcat &#x2F;usr&#x2F;share&#x2F;doc&#x2F;zabbix-sql-scripts&#x2F;mysql&#x2F;server.sql.gz | mysql -uzabbix -p zabbix<br> 提示输入的密码为：password<br> mysql&gt; create user zabbix@localhost identified by ‘password’;</p>
+</li>
+<li><p>5.Zabbix server配置数据库<br>  vi &#x2F;etc&#x2F;zabbix&#x2F;zabbix_server.conf<br><img src="https://cf-ipfs.com/ipfs/QmNnt7sWBXPGknksAP8bWXtPGDVo9fB76S5n3PzfW8DGNU"><br>####六、启动Zabbix<br>  systemctl restart zabbix-server zabbix-agent httpd php-fpm<br>  systemctl enable zabbix-server zabbix-agent httpd php-fpm</p>
+</li>
+</ul>
+<p>####七、配置向导</p>
+<p><img src="https://cf-ipfs.com/ipfs/QmYjGUcRAs3Kgz6f7hcXGB2YvQD56BrmqR4vczunLXLMsw"></p>
+<p>和zabbix5相同，不再累述</p>
+<h4 id="web界面设置为中文乱码解决"><a href="#web界面设置为中文乱码解决" class="headerlink" title="web界面设置为中文乱码解决"></a>web界面设置为中文乱码解决</h4><p><img src="https://cf-ipfs.com/ipfs/QmVpPYnZQmqAqmoDvB3HausnxFLoAYvx2f5GSnZxu74eSQ"><br>还是字体问题<br>查看配置文件<br>复制windowns系统下面 仿宋字体文件到 &#x2F;usr&#x2F;share&#x2F;zabbix&#x2F;assets&#x2F;fonts&#x2F;<br>改名为：graphfont.ttf<br>刷新页面，字体正常<br><img src="https://cf-ipfs.com/ipfs/QmZvHGbGoV7Lqxw5WTmjPiiVHfWELyy17McHShtzKHDnus"></p>
 
                 
             </div>
@@ -547,7 +556,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://apple524.github.io/2022/04/03/g-w-hack/">https://apple524.github.io/2022/04/03/g-w-hack/</a>
+                    <a href="https://apple524.github.io/2022/04/03/zabbix6/">https://apple524.github.io/2022/04/03/zabbix6/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -585,12 +594,12 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/game-watch/">
-                                    <span class="chip bg-color">game&amp;watch</span>
+                                <a href="/tags/zabbix/">
+                                    <span class="chip bg-color">zabbix</span>
                                 </a>
                             
-                                <a href="/tags/%E7%A0%B4%E8%A7%A3/">
-                                    <span class="chip bg-color">破解</span>
+                                <a href="/tags/centos/">
+                                    <span class="chip bg-color">centos</span>
                                 </a>
                             
                         </div>
@@ -764,9 +773,10 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
                 <a href="/2022/04/03/zabbix6/">
                     <div class="card-image">
@@ -783,9 +793,9 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2022-04-03
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-04-03
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -802,6 +812,7 @@
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
@@ -824,13 +835,12 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2022/04/03/xiaomi-clash/">
+                <a href="/2022/04/03/g-w-hack/">
                     <div class="card-image">
                         
+                        <img src="https://cf-ipfs.com/ipfs/QmVeTaz5xVSu2ybw7TjZ9cWseGXSnbry6Pzr9VA5Bqd5g8" class="responsive-img" alt="Game &amp; Watch 刷机完全教程">
                         
-                        <img src="/medias/featureimages/13.jpg" class="responsive-img" alt="小米路由器安装ShellClash教程">
-                        
-                        <span class="card-title">小米路由器安装ShellClash教程</span>
+                        <span class="card-title">Game &amp; Watch 刷机完全教程</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -847,12 +857,16 @@
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E8%B7%AF%E7%94%B1%E5%99%A8/" class="post-category">
-                                    路由器
+                            <a href="/categories/%E6%B8%B8%E6%88%8F/" class="post-category">
+                                    游戏
                                 </a>
                             
-                            <a href="/categories/%E8%B7%AF%E7%94%B1%E5%99%A8/%E7%A0%B4%E8%A7%A3/" class="post-category">
+                            <a href="/categories/%E6%B8%B8%E6%88%8F/%E7%A0%B4%E8%A7%A3/" class="post-category">
                                     破解
+                                </a>
+                            
+                            <a href="/categories/%E6%B8%B8%E6%88%8F/%E7%A0%B4%E8%A7%A3/game-watch/" class="post-category">
+                                    game&watch
                                 </a>
                             
                             
@@ -862,20 +876,12 @@
                 
                 <div class="card-action article-tags">
                     
+                    <a href="/tags/game-watch/">
+                        <span class="chip bg-color">game&amp;watch</span>
+                    </a>
+                    
                     <a href="/tags/%E7%A0%B4%E8%A7%A3/">
                         <span class="chip bg-color">破解</span>
-                    </a>
-                    
-                    <a href="/tags/%E5%B0%8F%E7%B1%B3/">
-                        <span class="chip bg-color">小米</span>
-                    </a>
-                    
-                    <a href="/tags/%E8%B7%AF%E7%94%B1%E5%99%A8/">
-                        <span class="chip bg-color">路由器</span>
-                    </a>
-                    
-                    <a href="/tags/Clash/">
-                        <span class="chip bg-color">Clash</span>
                     </a>
                     
                 </div>
