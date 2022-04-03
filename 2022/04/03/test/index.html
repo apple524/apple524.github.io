@@ -4,8 +4,11 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Hello World, apple524">
-    <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hex">
+    <meta name="keywords" content="小米路由器安装ShellClash教程, game,zabbix,linux">
+    <meta name="description" content="目录 (Table of Contents)#获取路由器SSH权限
+  本文只详解小米AX3600,AX1800,AX5这3款路由器的SSH开启方法。
+
+可用于开启SSH权限的固件版本为：AX3600 1.0.17版本&amp;#x2F;AX180">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -19,7 +22,7 @@
 
     
 
-    <title>Hello World | apple524</title>
+    <title>小米路由器安装ShellClash教程 | apple524</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
@@ -146,7 +149,7 @@
         <div class="logo-name">apple524</div>
         <div class="logo-desc">
             
-            Never really desperate, only the lost of the soul.
+            本站为个人兴趣爱好，分享经验，记录点滴
             
         </div>
     </div>
@@ -309,12 +312,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/12.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/13.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Hello World</h1>
+                    <h1 class="description center-align post-title">小米路由器安装ShellClash教程</h1>
                 </div>
             </div>
         </div>
@@ -442,7 +445,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2022-04-02
+                    2022-04-03
                 </div>
                 
 
@@ -463,19 +466,10 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+                <p><strong>目录 (Table of Contents)</strong><br>#获取路由器SSH权限</p>
+<pre><code>  本文只详解小米AX3600,AX1800,AX5这3款路由器的SSH开启方法。
+</code></pre>
+<p>可用于开启SSH权限的固件版本为：AX3600 1.0.17版本&#x2F;AX1800 1.0.34&#x2F;1.0.328&#x2F;1.0.336版本&#x2F;AX5 1.0.16&#x2F;1.0.26版本，如果您的固件版本高于以上版本，请先执行降级操作！<br>手动降级<br>降级的具体固件下载地址为：<a target="_blank" rel="noopener" href="https://www.right.com.cn/forum/thread-4032490-1-1.html">https://www.right.com.cn/forum/thread-4032490-1-1.html</a> ，下载合适的固件到本地后，登陆路由器的管理界面：Miwifi.com ，然后在：常用设置——系统状态——升级检测中，点击手动升级按钮。之后在弹出的界面中点击选择文件——选择您刚刚下载的固件bin文件，之后点击开始上传即可。降级之前，建议在此界面下方先使用备份功能新建一份配置备份。<br>成功降级后，请重新设置及登陆路由器。<br>#开启SSH权限<br>首先登陆你的路由器管理界面，点击路由状态页签，此时地址栏应该显示如下地址：<br><a target="_blank" rel="noopener" href="http://miwifi.com/cgi-bin/luci/;stok=xxxxxxx****/web/home#router">http://miwifi.com/cgi-bin/luci/;stok=xxxxxxx****/web/home#router</a>****<br>将我加粗的&#x2F;web&#x2F;home#router（注意不要把那一串xxxx代表的密码替换掉）替换为如下文本，之后输入回车访问，此时页面返回{“code”:0}，即可使用ssh工具测试是否开启成功。<br>（注意不要使用mac或iOS自带的safari浏览器）<br>&#x2F;api&#x2F;misystem&#x2F;set_config_iotdev?bssid&#x3D;Xiaomi&amp;user_id&#x3D;longdike&amp;ssid&#x3D;-h%3B%20nvram%20set%20ssh_en%3D1%3B%20nvram%20commit%3B%20sed%20-i%20’s%2Fchannel%3D.*%2Fchannel%3D%5C%22debug%5C%22%2Fg’%20%2Fetc%2Finit.d%2Fdropbear%3B%20%2Fetc%2Finit.d%2Fdropbear%20start%3B%20echo%20-e%20’admin%5Cnadmin’%20%7C%20passwd%20root%3B<br>最终应该是（<a target="_blank" rel="noopener" href="http://miwifi.com/cgi-bin/luci/;stok=%E4%B8%80%E5%B0%8F%E4%B8%B2%E5%AF%86%E7%A0%81/api/misystem/%E5%90%8E%E9%9D%A2%E4%B8%80%E5%A4%A7%E4%B8%B2%EF%BC%89%E8%BF%99%E6%A0%B7%E7%9A%84%E5%BD%A2%E5%BC%8F%EF%BC%8C%E5%A6%82%E6%9E%9C%E4%B8%8D%E5%AF%B9%EF%BC%8C%E5%8F%AF%E8%83%BD%E6%97%A0%E6%B3%95%E5%BC%80%E5%90%AF%EF%BC%8C%E8%AF%B7%E8%AE%A4%E7%9C%9F%E6%A3%80%E6%9F%A5%EF%BC%8C%E4%B8%8D%E8%A6%81%E5%BC%84%E9%94%99%EF%BC%81%EF%BC%81%EF%BC%81">http://miwifi.com/cgi-bin/luci/;stok=一小串密码/api/misystem/后面一大串）这样的形式，如果不对，可能无法开启，请认真检查，不要弄错！！！</a><br>如果以上方式无法开启SSH，请参考：<a target="_blank" rel="noopener" href="https://www.right.com.cn/forum/thread-4032490-1-1.html%E6%88%96%E8%80%85%E5%8F%82%E8%80%83%EF%BC%9Ahttps://www.right.com.cn/forum/thread-4039512-1-1.html">https://www.right.com.cn/forum/thread-4032490-1-1.html或者参考：https://www.right.com.cn/forum/thread-4039512-1-1.html</a> 尝试更多方法开启。<br>#登陆SSH<br>使用SSH连接工具来登陆SSH，推荐putty（体积最小），JuiceSSH（支持安卓手机），或其他工具，SSH工具请自行下载。<br>打开SSH工具，在IP（或者host）一栏填写你路由器的网关IP，即刚刚登陆路由器管理界面的IP地址或网址（例如192.168.31.1或者miwifi.com）,端口为默认的22端口不变，密码为admin（刚刚那串破解码中设定的密码），设置好之后点击连接即可登陆路由器SSH！<br>建议修改默认的登陆密码，在SSH界面输入passwd即可修改密码，注意修改时需要输入2次密码，且输入的密码不会显示，输入好直接回车即可完成修改。</p>
 
                 
             </div>
@@ -502,7 +496,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://apple524.github.io/2022/04/02/hello-world/">https://apple524.github.io/2022/04/02/hello-world/</a>
+                    <a href="https://apple524.github.io/2022/04/03/test/">https://apple524.github.io/2022/04/03/test/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -559,6 +553,132 @@
                 </div>
             </div>
             
+                <style>
+    #reward {
+        margin: 40px 0;
+        text-align: center;
+    }
+
+    #reward .reward-link {
+        font-size: 1.4rem;
+        line-height: 38px;
+    }
+
+    #reward .btn-floating:hover {
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    #rewardModal {
+        width: 320px;
+        height: 350px;
+    }
+
+    #rewardModal .reward-title {
+        margin: 15px auto;
+        padding-bottom: 5px;
+    }
+
+    #rewardModal .modal-content {
+        padding: 10px;
+    }
+
+    #rewardModal .close {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 1.3rem;
+        line-height: 20px;
+        cursor: pointer;
+    }
+
+    #rewardModal .close:hover {
+        color: #ef5350;
+        transform: scale(1.3);
+        -moz-transform:scale(1.3);
+        -webkit-transform:scale(1.3);
+        -o-transform:scale(1.3);
+    }
+
+    #rewardModal .reward-tabs {
+        margin: 0 auto;
+        width: 210px;
+    }
+
+    .reward-tabs .tabs {
+        height: 38px;
+        margin: 10px auto;
+        padding-left: 0;
+    }
+
+    .reward-content ul {
+        padding-left: 0 !important;
+    }
+
+    .reward-tabs .tabs .tab {
+        height: 38px;
+        line-height: 38px;
+    }
+
+    .reward-tabs .tab a {
+        color: #fff;
+        background-color: #ccc;
+    }
+
+    .reward-tabs .tab a:hover {
+        background-color: #ccc;
+        color: #fff;
+    }
+
+    .reward-tabs .wechat-tab .active {
+        color: #fff !important;
+        background-color: #22AB38 !important;
+    }
+
+    .reward-tabs .alipay-tab .active {
+        color: #fff !important;
+        background-color: #019FE8 !important;
+    }
+
+    .reward-tabs .reward-img {
+        width: 210px;
+        height: 210px;
+    }
+</style>
+
+<div id="reward">
+    <a href="#rewardModal" class="reward-link modal-trigger btn-floating btn-medium waves-effect waves-light red">赏</a>
+
+    <!-- Modal Structure -->
+    <div id="rewardModal" class="modal">
+        <div class="modal-content">
+            <a class="close modal-close"><i class="fas fa-times"></i></a>
+            <h4 class="reward-title">你的赏识是我前进的动力</h4>
+            <div class="reward-content">
+                <div class="reward-tabs">
+                    <ul class="tabs row">
+                        <li class="tab col s6 alipay-tab waves-effect waves-light"><a href="#alipay">支付宝</a></li>
+                        <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
+                    </ul>
+                    <div id="alipay">
+                        <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
+                    </div>
+                    <div id="wechat">
+                        <img src="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $('.tabs').tabs();
+    });
+</script>
+
+            
         </div>
     </div>
 
@@ -585,18 +705,17 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="far fa-dot-circle"></i>&nbsp;本篇
-            </div>
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2022/04/02/hello-world/">
+                <a href="/2022/04/03/hello-world/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Hello World">
+                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="">
                         
-                        <span class="card-title">Hello World</span>
+                        <span class="card-title"></span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -606,9 +725,9 @@
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-04-02
-                            </span>
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2022-04-03
+                        </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
@@ -617,7 +736,6 @@
                         </span>
                     </div>
                 </div>
-
                 
             </div>
         </div>
@@ -628,13 +746,13 @@
                 本篇&nbsp;<i class="far fa-dot-circle"></i>
             </div>
             <div class="card">
-                <a href="/2022/04/02/hello-world/">
+                <a href="/2022/04/03/test/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Hello World">
+                        <img src="/medias/featureimages/13.jpg" class="responsive-img" alt="小米路由器安装ShellClash教程">
                         
-                        <span class="card-title">Hello World</span>
+                        <span class="card-title">小米路由器安装ShellClash教程</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -645,7 +763,7 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-04-02
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-04-03
                             </span>
                         <span class="publish-author">
                             
@@ -887,10 +1005,6 @@
 
 
 
-
-    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
-        <i class="fas fa-rss"></i>
-    </a>
 
 </div>
     </div>
