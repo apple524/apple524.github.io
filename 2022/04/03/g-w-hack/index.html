@@ -5,8 +5,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="keywords" content="Game &amp; Watch 刷机完全教程, game,zabbix,linux">
-    <meta name="description" content="####安装Ubuntu系统   推荐用电脑安装Ubuntu系统来对Game &amp;amp; Watch进行刷机，这样速度会比用树莓派搭建的系统快很多   安装Ubuntu系统的教程就自行网上查找，不在赘述
-准备工作  安装所需软件    su">
+    <meta name="description" content="安装Ubuntu系统   推荐用电脑安装Ubuntu系统来对Game &amp;amp; Watch进行刷机，这样速度会比用树莓派搭建的系统快很多   安装Ubuntu系统的教程就自行网上查找，不在赘述
+准备工作  安装所需软件    sudo a">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -469,14 +469,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    909
+                    999
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    3 分
+                    4 分
                 </div>
                 
 
@@ -496,7 +496,7 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>####安装Ubuntu系统<br>   推荐用电脑安装Ubuntu系统来对Game &amp; Watch进行刷机，这样速度会比用树莓派搭建的系统快很多<br>   安装Ubuntu系统的教程就自行网上查找，不在赘述</p>
+                <h4 id="安装Ubuntu系统"><a href="#安装Ubuntu系统" class="headerlink" title="安装Ubuntu系统"></a>安装Ubuntu系统</h4><p>   推荐用电脑安装Ubuntu系统来对Game &amp; Watch进行刷机，这样速度会比用树莓派搭建的系统快很多<br>   安装Ubuntu系统的教程就自行网上查找，不在赘述</p>
 <h4 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h4><p>  安装所需软件<br>    <code>sudo apt-get install binutils-arm-none-eabi python3 libftdi1 libc6-i386 libusb-1.0-0-dev libftdi-dev -y</code></p>
 <h4 id="安装openOCD"><a href="#安装openOCD" class="headerlink" title="安装openOCD"></a>安装openOCD</h4><ol>
 <li>下载相关库：<br><code>sudo apt-get install build-essential pkg-config autoconf automake libtool libusb-dev libusb-1.0-0-dev libhidapi-dev -y</code><br><code>sudo apt-get install libtool libsysfs-dev libftdi1-2 -y</code></li>
@@ -513,7 +513,7 @@
 <h4 id="安装双系统补丁"><a href="#安装双系统补丁" class="headerlink" title="安装双系统补丁"></a>安装双系统补丁</h4><pre><code>`git clone https://github.com/BrianPugh/game-and-watch-patch`
 </code></pre>
 <p>至此软件部分的工作完成</p>
-<p>####硬件破解<br>使用stlinkV2 连接到Game&amp;Watch设备，连接对应引脚如下图所示<br><img src="https://cf-ipfs.com/ipfs/QmeKVi1tCtoYKVUTG7STjBisjvhpt2gy8EC5EBhfxAoxQ4"><br>警告：在连接前请断开电池接口，连接调试器时，请确保至少连接了SWDIO、SWDCLK和GND。在任何情况下都不要将3.3V连接到VDD连接，否则可能会损坏SPI闪存。</p>
+<h4 id="硬件破解"><a href="#硬件破解" class="headerlink" title="硬件破解"></a>硬件破解</h4><p>使用stlinkV2 连接到Game&amp;Watch设备，连接对应引脚如下图所示<br><img src="https://cf-ipfs.com/ipfs/QmeKVi1tCtoYKVUTG7STjBisjvhpt2gy8EC5EBhfxAoxQ4"><br>警告：在连接前请断开电池接口，连接调试器时，请确保至少连接了SWDIO、SWDCLK和GND。在任何情况下都不要将3.3V连接到VDD连接，否则可能会损坏SPI闪存。</p>
 <h4 id="刷机步骤"><a href="#刷机步骤" class="headerlink" title="刷机步骤"></a>刷机步骤</h4><ol>
 <li>进入game-and-watch-backup程序 备份并破解原始固件</li>
 <li><code>./1_sanity_check.sh stlink mario(zelda)</code><br>   执行健全性检查并确保所有必需的工具都可用 显示Looks good！表示软件都正常部署</li>
@@ -523,8 +523,8 @@
 <li><code>./5_restore.sh stlink mario(zelda)</code><br>  这将恢复原始固件</li>
 </ol>
 <p>以上步骤完成后，会在game-and-watch-backup&#x2F;backups 目录下得到 flash_backup_mario.bin、internal_flash_backup_mario.bin、itcm_backup_mario.bin 三个文件，请妥善保存。</p>
-<h4 id="安装模拟器"><a href="#安装模拟器" class="headerlink" title="安装模拟器"></a>安装模拟器</h4><p>进入 game-and-watch-retro-go模拟器目录<br><img src="https://cf-ipfs.com/ipfs/QmajDf5VqxkxuMAKkfHTrUEoy6ues8hnEmUAx55yRPTKqf"><br>将游戏按照不同的类型放置到相应的游戏目录下面(游戏名字和对应的封面照片文件名相同)<br>修改每个模拟器下面的 json 文件<br><img src="https://cf-ipfs.com/ipfs/QmcpEGQXnmfzoPa3werUEYtFfUtmj1jhUk67Q6LHFNVjG6"><br>类似这样</p>
-<p>确认以上文件都放置正常位置以后就可以开始编译系统了<br>运行以下命令：<br>    <code>make clean</code><br>    <code>make romdef</code><br>    <code>make -j8 EXTFLASH_SIZE_MB=63 EXTFLASH_OFFSET=1048576 INTFLASH_BANK=2 CODEPAGE=936   COVERFLOW=1 GNW_TARGET=mario GAME_GENIE=1 flash</code><br>    请根据自身机器调整各项参数</p>
+<h4 id="安装模拟器"><a href="#安装模拟器" class="headerlink" title="安装模拟器"></a>安装模拟器</h4><p>进入 game-and-watch-retro-go模拟器目录<br><img src="https://cf-ipfs.com/ipfs/QmajDf5VqxkxuMAKkfHTrUEoy6ues8hnEmUAx55yRPTKqf"><br>将游戏按照不同的类型放置到相应的游戏目录下面(游戏名字和对应的封面照片文件名相同)<br>修改每个模拟器下面的 json 文件，如下图所示：<br><img src="https://cf-ipfs.com/ipfs/QmcpEGQXnmfzoPa3werUEYtFfUtmj1jhUk67Q6LHFNVjG6"></p>
+<p>确认以上文件都放置正常位置以后就可以开始编译系统了<br>运行以下命令：<br>    <code>make clean</code><br>    <code>make romdef</code><br>    <code>make -j8 EXTFLASH_SIZE_MB=63 EXTFLASH_OFFSET=1048576 INTFLASH_BANK=2 CODEPAGE=936   COVERFLOW=1 GNW_TARGET=mario GAME_GENIE=1 flash</code><br>    请根据自身机器调整各项参数<br>    SIZE_MB：扩容后内存容量 如果安装双系统 马里奥机器减去1M，塞尔达机器减去4M，此为原始固件占用容量<br>    INTFLASH_BANK：1 单系统  2 双系统<br>    CODEPAGE：936 - 简体中文  1252 - English  950 - 繁體中文<br>    COVERFLOW: 1 显示封面  0 不显示封面<br>    GAME_GENIE: 1 打开金手指  0 不打开金手指 </p>
 <h4 id="安装双系统补丁-1"><a href="#安装双系统补丁-1" class="headerlink" title="安装双系统补丁"></a>安装双系统补丁</h4><p>进入 game-and-watch-patch 目录安装双系统补丁<br>将game-and-watch-backup 程序备份的系统文件复制到game-and-watch-patch目录下面<br>运行以下命令：<br>    <code>make clean</code><br>    <code>make PATCH_PARAMS=&quot;--device=mario --internal-only&quot; flash_patched</code><br>    <code>make PATCH_PARAMS=&quot; --smb1=path-to-patched-smb1-rom.nes&quot; flash_patched</code></p>
 <p>至此全部安装工作完成</p>
 <p><img src="https://cf-ipfs.com/ipfs/QmYLZd1J59s1a48mKdpJxxSTAB1p5zijnbHqppXiQdiyKa"></p>
