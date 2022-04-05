@@ -171,13 +171,81 @@
       </tags>
   </entry>
   <entry>
+    <title>Ball 球</title>
+    <url>/2022/04/05/g-w-ball/</url>
+    <content><![CDATA[<table>
+<thead>
+<tr>
+<th align="center"></th>
+<th align="center">技术规格</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">尺寸</td>
+<td align="center">长：95mm 宽：63mm 厚度：11.5mm</td>
+</tr>
+<tr>
+<td align="center">重量</td>
+<td align="center">51壳</td>
+</tr>
+<tr>
+<td align="center">电池</td>
+<td align="center">2节纽扣电池(LR43或SR43)</td>
+</tr>
+<tr>
+<td align="center">型号</td>
+<td align="center">AC-01</td>
+</tr>
+</tbody></table>
+<p>Ball是任天堂于1980年发行的Game&amp;Watch视频游戏。作为公司的第一个Game&amp;Watch游戏，Ball在游戏社区和公司内部广受赞誉，并见证了多次重新发布和重制。在Ball中，用户控制一个角色谁必须同时处理几个球，确保没有一个球意外掉落。这可以通过左右移动他的手臂来完成，这由两个面部按钮控制。左右键同时动作，双臂瞬间移动；当一只手臂向右移动时，另一只手臂向右移动，当一只手臂向左移动时，另一只手臂向左移动。正是这种简单性使Game&amp;Watch系列如此令人难忘。</p>
+<p>尽管Ball并不是该系列中最成功的游戏，销量估计为 250,000 台，但它可能是最重要的。如果鲍尔失败了，特许经营权的未来以及可以想象的公司的视频游戏业务可能不太可能生存下来。然而，由于它的成功，更多的 Game &amp; Watch 游戏被开发出来，游戏本身也被重新制作或重新发布了几次。该游戏在Game &amp; Watch Gallery系列中进行了多次迭代， 2009 年任天堂在其DSiWare服务上发布了该游戏，获得 200 Nintendo Points。2010年（2011年在北美）任天堂重新制作了原始的 Game &amp; Watch 单元，并通过他们的Club Nintendo服务发布了它们。</p>
+<p>游戏玩法</p>
+<p>玩游戏时只有两个按钮。位于屏幕左侧的左按钮将角色的双臂向左移动，而相反，位于屏幕右侧的右臂将角色的双臂向右移动。游戏的目标是玩杂耍球并确保它们不会撞到地面。这可以通过将角色的手放在球下方来完成。一旦手和球连接，球将向上射出并弯曲到角色身体的另一侧，用户必须再次定位手，以便两者成功碰撞。一旦一个球掉下来，游戏就结束了，用户必须重新开始。在游戏 A 中，玩家玩杂耍两个球，每次成功接球获得 1 分，而在游戏 B 中，他们需要处理三个球，每次接球获得 10 分。由于 9,999 不是 10 的倍数，因此用户可以获得的最高分数是游戏 A 的 9,999 和游戏 B 的 9,990。</p>
+<p>由于球的初始速度很慢，玩家可以很容易地确定球会落到哪里。随着游戏的进行，球会开始加速，但游戏会在玩家每获得 100 分后自动减速</p>
+<p><img src="https://cf-ipfs.com/ipfs/QmbZ5xBNk3zdXvAqw9GMWyNXK9Uase3icEcu6Q47TxgJfX"></p>
+]]></content>
+      <categories>
+        <category>Game&amp;Watch</category>
+      </categories>
+      <tags>
+        <tag>Game&amp;Watch</tag>
+        <tag>游戏</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Game&amp;Watch 马里奥35周年纪念版拆机</title>
+    <url>/2022/04/05/g-w-fixit/</url>
+    <content><![CDATA[<p>主机背面4颗Y字型螺丝<br><img src="https://cf-ipfs.com/ipfs/QmSnwjfTdJhci6T2ietuhmG1BiczQuQLEM5WG4RQMXWL9D"></p>
+<p><img src="https://cf-ipfs.com/ipfs/QmcFxWa4dHum5uAAjfwpmp3DUyqbw6ZzwJZbW2jPJ4PPAB"></p>
+<p>拆开后盖整体主板<br><img src="https://cf-ipfs.com/ipfs/QmWzEd6UQJk6CPeTN7VpqaGeAxCgep1EXQyt9QXkzGjVGU"></p>
+<p>PCB上主要芯片</p>
+<p>STM32H7B0VBT6<br><img src="https://cf-ipfs.com/ipfs/QmVYt3Q7HWbD5Ca4M23VGjmh4zZ5Kts8GXbLbxJFkHXZts"></p>
+<p>MX25U8035F  1.8V 8M-BIT<br><img src="https://cf-ipfs.com/ipfs/QmTLM99L1DyGBmAPH7mVPtTwQdwvEdad2L2Mv9rAZFep4g"></p>
+<p>BQ24072RGTT 电池充电管理芯片<br><img src="https://cf-ipfs.com/ipfs/Qmf3Gs4FQiYKsghaV19nLorySPe3L8gSsGg61dxJmnXESk"></p>
+<p>电池 3.7V 525mAh 和ns手柄通用<br><img src="https://cf-ipfs.com/ipfs/QmevLK41Z99Au2VeVrMzz6zdVbvn83mJ4nwpg1yJ2p7k1n"></p>
+<p>扬声器<br><img src="https://cf-ipfs.com/ipfs/QmWvbeWB6Z9NqK6146b4p2mVDXMMSq4vjBdvJSrqkefxxg"></p>
+<p>TypeC 接口 只具备充电功能，没有数据传输<br><img src="https://cf-ipfs.com/ipfs/QmNdnEpd2zQzuH7ctudU2K34eGy7Eko3e5jzrJ7XFpRwvg"></p>
+<p>PCB主板背面<br><img src="https://cf-ipfs.com/ipfs/QmNaxHbbY9ZqZRMWocTLVxmZAU5rWESxfzf9fEeNTxtGpt"></p>
+<p>液晶屏 群创 ZJ024NA-17A<br><img src="https://cf-ipfs.com/ipfs/QmSyTbi9Xc9UA4efp9LWCZ8Fcx1z2DS9TAyEzLUDuYPi2q"></p>
+<p>屏线<br><img src="https://cf-ipfs.com/ipfs/QmXagNieud9TFgniy4vKXC4hZYvjwhefXwbY9KvtycrwZ5"><br><img src="https://cf-ipfs.com/ipfs/QmfK2vmem26CCPvEJbwkyXfydEzKNJkMWn8pYtuTz1CM6m"></p>
+<p>亮度排线<br><img src="https://cf-ipfs.com/ipfs/QmTHdDmpWx9PhJZZH6PuXNF5EHckBQoEk2An5QnixTb55D"></p>
+]]></content>
+      <categories>
+        <category>Game&amp;Watch</category>
+      </categories>
+      <tags>
+        <tag>Game&amp;Watch</tag>
+        <tag>拆机</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Game &amp; Watch 刷机完全教程</title>
     <url>/2022/04/03/g-w-hack/</url>
     <content><![CDATA[<h4 id="安装Ubuntu系统"><a href="#安装Ubuntu系统" class="headerlink" title="安装Ubuntu系统"></a>安装Ubuntu系统</h4><p>   推荐用电脑安装Ubuntu系统来对Game &amp; Watch进行刷机，这样速度会比用树莓派搭建的系统快很多<br>   安装Ubuntu系统的教程就自行网上查找，不在赘述</p>
-<h4 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h4><p>  安装所需软件<br>    <code>sudo apt-get install binutils-arm-none-eabi python3 libftdi1 libc6-i386 libusb-1.0-0-dev libftdi-dev -y</code></p>
+<h4 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h4><p>  安装所需软件<br>    <code>#sudo apt-get install binutils-arm-none-eabi python3 libftdi1 libc6-i386 libusb-1.0-0-dev libftdi-dev -y</code></p>
 <h4 id="安装openOCD"><a href="#安装openOCD" class="headerlink" title="安装openOCD"></a>安装openOCD</h4><ol>
-<li>下载相关库：<br><code>sudo apt-get install build-essential pkg-config autoconf automake libtool libusb-dev libusb-1.0-0-dev libhidapi-dev -y</code><br><code>sudo apt-get install libtool libsysfs-dev libftdi1-2 -y</code></li>
-<li>安装openocd：<br><code>#wget https://nightly.link/kbeckmann/ubuntu-openocd-git-builder/workflows/docker/master/openocd-git.deb.zip</code><br><code>#unzip openocd-git.deb.zip</code><br><code>sudo dpkg -i openocd-git_*_amd64.deb</code><br><code>sudo apt-get -y -f install</code><br><code>export OPENOCD=&quot;/opt/openocd-git/bin/openocd&quot; 或者 </code>sudo vim &#x2F;etc&#x2F;profile<code> </code>export PATH&#x3D;$PATH:&#x2F;opt&#x2F;openocd-git&#x2F;bin&#x2F;<code> </code>source ~&#x2F;.bashrc&#96;<h4 id="安装-arm-gcc-none-eabi-toolchain-10-2-0及以上版本"><a href="#安装-arm-gcc-none-eabi-toolchain-10-2-0及以上版本" class="headerlink" title="安装 arm-gcc-none-eabi toolchain. 10.2.0及以上版本"></a>安装 arm-gcc-none-eabi toolchain. 10.2.0及以上版本</h4><pre><code>`#sudo apt install libncurses-dev`
+<li>下载相关库：<br><code>#sudo apt-get install build-essential pkg-config autoconf automake libtool libusb-dev libusb-1.0-0-dev libhidapi-dev -y</code><br><code>#sudo apt-get install libtool libsysfs-dev libftdi1-2 -y</code></li>
+<li>安装openocd：<br><code>#wget https://nightly.link/kbeckmann/ubuntu-openocd-git-builder/workflows/docker/master/openocd-git.deb.zip</code><br><code>#unzip openocd-git.deb.zip</code><br><code>#sudo dpkg -i openocd-git_*_amd64.deb</code><br><code>#sudo apt-get -y -f install</code><br><code>#export OPENOCD=&quot;/opt/openocd-git/bin/openocd&quot; 或者 </code>#sudo vim &#x2F;etc&#x2F;profile<code> </code>#export PATH&#x3D;$PATH:&#x2F;opt&#x2F;openocd-git&#x2F;bin&#x2F;<code> </code>#source ~&#x2F;.bashrc&#96;<h4 id="安装-arm-gcc-none-eabi-toolchain-10-2-0及以上版本"><a href="#安装-arm-gcc-none-eabi-toolchain-10-2-0及以上版本" class="headerlink" title="安装 arm-gcc-none-eabi toolchain. 10.2.0及以上版本"></a>安装 arm-gcc-none-eabi toolchain. 10.2.0及以上版本</h4><pre><code>`#sudo apt install libncurses-dev`
 `#sudo apt-get install lsb-core -y`
 </code></pre>
 <h4 id="安装安装备份破解模块"><a href="#安装安装备份破解模块" class="headerlink" title="安装安装备份破解模块"></a>安装安装备份破解模块</h4><pre><code>`#git clone https://github.com/ghidraninja/game-and-watch-backup`
@@ -187,7 +255,7 @@
 <h4 id="安装game-and-watch-retro-go程序"><a href="#安装game-and-watch-retro-go程序" class="headerlink" title="安装game-and-watch-retro-go程序"></a>安装game-and-watch-retro-go程序</h4><pre><code>`#git clone https://github.com/olderzeus/game-and-watch-retro-go`
 强烈推荐使用这个github的发布，带封面，优化效果好！！！
 </code></pre>
-<h4 id="安装双系统补丁"><a href="#安装双系统补丁" class="headerlink" title="安装双系统补丁"></a>安装双系统补丁</h4><pre><code>`git clone https://github.com/BrianPugh/game-and-watch-patch`
+<h4 id="安装双系统补丁"><a href="#安装双系统补丁" class="headerlink" title="安装双系统补丁"></a>安装双系统补丁</h4><pre><code>`#git clone https://github.com/BrianPugh/game-and-watch-patch`
 </code></pre>
 <p>至此软件部分的工作完成</p>
 <h4 id="硬件破解"><a href="#硬件破解" class="headerlink" title="硬件破解"></a>硬件破解</h4><p>使用stlinkV2 连接到Game&amp;Watch设备，连接对应引脚如下图所示<br><img src="https://cf-ipfs.com/ipfs/QmeKVi1tCtoYKVUTG7STjBisjvhpt2gy8EC5EBhfxAoxQ4"><br>警告：在连接前请断开电池接口，连接调试器时，请确保至少连接了SWDIO、SWDCLK和GND。在任何情况下都不要将3.3V连接到VDD连接，否则可能会损坏SPI闪存。</p>
@@ -209,29 +277,11 @@
 <p>感谢以下资料：<br>(<a href="https://github.com/kbeckmann/game-and-watch-retro-go">https://github.com/kbeckmann/game-and-watch-retro-go</a>)<br>(<a href="https://github.com/olderzeus/game-and-watch-retro-go">https://github.com/olderzeus/game-and-watch-retro-go</a>)<br>(<a href="https://github.com/BrianPugh/game-and-watch-patch">https://github.com/BrianPugh/game-and-watch-patch</a>)</p>
 ]]></content>
       <categories>
-        <category>game&amp;watch</category>
+        <category>Game&amp;Watch</category>
       </categories>
       <tags>
-        <tag>game&amp;watch</tag>
+        <tag>Game&amp;Watch</tag>
         <tag>破解</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>小米路由器开启SSH教程</title>
-    <url>/2022/04/03/xiaomi-hack/</url>
-    <content><![CDATA[<p>#获取路由器SSH权限</p>
-<pre><code>  本文只详解小米AX3600,AX1800,AX5这3款路由器的SSH开启方法。
-</code></pre>
-<p>可用于开启SSH权限的固件版本为：AX3600 1.0.17版本&#x2F;AX1800 1.0.34&#x2F;1.0.328&#x2F;1.0.336版本&#x2F;AX5 1.0.16&#x2F;1.0.26版本，如果您的固件版本高于以上版本，请先执行降级操作！<br>手动降级<br>降级的具体固件下载地址为：<a href="https://www.right.com.cn/forum/thread-4032490-1-1.html">https://www.right.com.cn/forum/thread-4032490-1-1.html</a> ，下载合适的固件到本地后，登陆路由器的管理界面：Miwifi.com ，然后在：常用设置——系统状态——升级检测中，点击手动升级按钮。之后在弹出的界面中点击选择文件——选择您刚刚下载的固件bin文件，之后点击开始上传即可。降级之前，建议在此界面下方先使用备份功能新建一份配置备份。<br>成功降级后，请重新设置及登陆路由器。<br>#开启SSH权限<br>首先登陆你的路由器管理界面，点击路由状态页签，此时地址栏应该显示如下地址：<br><a href="http://miwifi.com/cgi-bin/luci/;stok=xxxxxxx****/web/home#router">http://miwifi.com/cgi-bin/luci/;stok=xxxxxxx****/web/home#router</a>****<br>将我加粗的&#x2F;web&#x2F;home#router（注意不要把那一串xxxx代表的密码替换掉）替换为如下文本，之后输入回车访问，此时页面返回{“code”:0}，即可使用ssh工具测试是否开启成功。<br>（注意不要使用mac或iOS自带的safari浏览器）<br>&#x2F;api&#x2F;misystem&#x2F;set_config_iotdev?bssid&#x3D;Xiaomi&amp;user_id&#x3D;longdike&amp;ssid&#x3D;-h%3B%20nvram%20set%20ssh_en%3D1%3B%20nvram%20commit%3B%20sed%20-i%20’s%2Fchannel%3D.*%2Fchannel%3D%5C%22debug%5C%22%2Fg’%20%2Fetc%2Finit.d%2Fdropbear%3B%20%2Fetc%2Finit.d%2Fdropbear%20start%3B%20echo%20-e%20’admin%5Cnadmin’%20%7C%20passwd%20root%3B<br>最终应该是（<a href="http://miwifi.com/cgi-bin/luci/;stok=%E4%B8%80%E5%B0%8F%E4%B8%B2%E5%AF%86%E7%A0%81/api/misystem/%E5%90%8E%E9%9D%A2%E4%B8%80%E5%A4%A7%E4%B8%B2%EF%BC%89%E8%BF%99%E6%A0%B7%E7%9A%84%E5%BD%A2%E5%BC%8F%EF%BC%8C%E5%A6%82%E6%9E%9C%E4%B8%8D%E5%AF%B9%EF%BC%8C%E5%8F%AF%E8%83%BD%E6%97%A0%E6%B3%95%E5%BC%80%E5%90%AF%EF%BC%8C%E8%AF%B7%E8%AE%A4%E7%9C%9F%E6%A3%80%E6%9F%A5%EF%BC%8C%E4%B8%8D%E8%A6%81%E5%BC%84%E9%94%99%EF%BC%81%EF%BC%81%EF%BC%81">http://miwifi.com/cgi-bin/luci/;stok=一小串密码/api/misystem/后面一大串）这样的形式，如果不对，可能无法开启，请认真检查，不要弄错！！！</a><br>如果以上方式无法开启SSH，请参考：<a href="https://www.right.com.cn/forum/thread-4032490-1-1.html%E6%88%96%E8%80%85%E5%8F%82%E8%80%83%EF%BC%9Ahttps://www.right.com.cn/forum/thread-4039512-1-1.html">https://www.right.com.cn/forum/thread-4032490-1-1.html或者参考：https://www.right.com.cn/forum/thread-4039512-1-1.html</a> 尝试更多方法开启。<br>#登陆SSH<br>使用SSH连接工具来登陆SSH，推荐putty（体积最小），JuiceSSH（支持安卓手机），或其他工具，SSH工具请自行下载。<br>打开SSH工具，在IP（或者host）一栏填写你路由器的网关IP，即刚刚登陆路由器管理界面的IP地址或网址（例如192.168.31.1或者miwifi.com）,端口为默认的22端口不变，密码为admin（刚刚那串破解码中设定的密码），设置好之后点击连接即可登陆路由器SSH！<br>建议修改默认的登陆密码，在SSH界面输入passwd即可修改密码，注意修改时需要输入2次密码，且输入的密码不会显示，输入好直接回车即可完成修改。<br>破解固化永久SSH教程<br>备份nand，运行如下命令：<br><code># nanddump -f /tmp/bdata_mtd9.img /dev/mtd9</code><br>运行成功后用winscp下载到电脑上备份好（以防万一）<br>接下来下载网盘中的破解文件（fuckax3600）<br>链接: <a href="https://pan.baidu.com/s/15QsNvM9qwgTVtk8zF843eA">https://pan.baidu.com/s/15QsNvM9qwgTVtk8zF843eA</a> 提取码: 8rcu<br>之后用winscp将该文件上传到路由器的&#x2F;tmp目录下，执行如下代码：<br><code>chmod +x /tmp/fuckax3600 &amp;&amp; /tmp/fuckax3600 unlock</code><br>机器会自动重启，重启后执行：<br><code>/tmp/fuckax3600 hack</code><br>会自动设置永久ssh、telnet、uart权限，同时会计算出默认的root密码，注意记录密码，恢复出厂后telnet和ssh需要用<br>最后执行：<br><code>/tmp/fuckax3600 lock</code><br>重启后即使恢复出厂ssid也能正常了<br>如升级后ssh被禁用可以用telnet登录，执行下面代码再次启用ssh<br><code>#sed -i &#39;s/channel=.*/channel=&quot;debug&quot;/g&#39; /etc/init.d/dropbear </code><br><code>#/etc/init.d/dropbear start</code><br>至此基本可以保证机器长期拥有root权限</p>
-]]></content>
-      <categories>
-        <category>路由器</category>
-      </categories>
-      <tags>
-        <tag>破解</tag>
-        <tag>小米</tag>
-        <tag>路由器</tag>
-        <tag>SSH</tag>
       </tags>
   </entry>
   <entry>
@@ -335,6 +385,24 @@
         <tag>小米</tag>
         <tag>路由器</tag>
         <tag>Clash</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>小米路由器开启SSH教程</title>
+    <url>/2022/04/03/xiaomi-hack/</url>
+    <content><![CDATA[<p>#获取路由器SSH权限</p>
+<pre><code>  本文只详解小米AX3600,AX1800,AX5这3款路由器的SSH开启方法。
+</code></pre>
+<p>可用于开启SSH权限的固件版本为：AX3600 1.0.17版本&#x2F;AX1800 1.0.34&#x2F;1.0.328&#x2F;1.0.336版本&#x2F;AX5 1.0.16&#x2F;1.0.26版本，如果您的固件版本高于以上版本，请先执行降级操作！<br>手动降级<br>降级的具体固件下载地址为：<a href="https://www.right.com.cn/forum/thread-4032490-1-1.html">https://www.right.com.cn/forum/thread-4032490-1-1.html</a> ，下载合适的固件到本地后，登陆路由器的管理界面：Miwifi.com ，然后在：常用设置——系统状态——升级检测中，点击手动升级按钮。之后在弹出的界面中点击选择文件——选择您刚刚下载的固件bin文件，之后点击开始上传即可。降级之前，建议在此界面下方先使用备份功能新建一份配置备份。<br>成功降级后，请重新设置及登陆路由器。<br>#开启SSH权限<br>首先登陆你的路由器管理界面，点击路由状态页签，此时地址栏应该显示如下地址：<br><a href="http://miwifi.com/cgi-bin/luci/;stok=xxxxxxx****/web/home#router">http://miwifi.com/cgi-bin/luci/;stok=xxxxxxx****/web/home#router</a>****<br>将我加粗的&#x2F;web&#x2F;home#router（注意不要把那一串xxxx代表的密码替换掉）替换为如下文本，之后输入回车访问，此时页面返回{“code”:0}，即可使用ssh工具测试是否开启成功。<br>（注意不要使用mac或iOS自带的safari浏览器）<br>&#x2F;api&#x2F;misystem&#x2F;set_config_iotdev?bssid&#x3D;Xiaomi&amp;user_id&#x3D;longdike&amp;ssid&#x3D;-h%3B%20nvram%20set%20ssh_en%3D1%3B%20nvram%20commit%3B%20sed%20-i%20’s%2Fchannel%3D.*%2Fchannel%3D%5C%22debug%5C%22%2Fg’%20%2Fetc%2Finit.d%2Fdropbear%3B%20%2Fetc%2Finit.d%2Fdropbear%20start%3B%20echo%20-e%20’admin%5Cnadmin’%20%7C%20passwd%20root%3B<br>最终应该是（<a href="http://miwifi.com/cgi-bin/luci/;stok=%E4%B8%80%E5%B0%8F%E4%B8%B2%E5%AF%86%E7%A0%81/api/misystem/%E5%90%8E%E9%9D%A2%E4%B8%80%E5%A4%A7%E4%B8%B2%EF%BC%89%E8%BF%99%E6%A0%B7%E7%9A%84%E5%BD%A2%E5%BC%8F%EF%BC%8C%E5%A6%82%E6%9E%9C%E4%B8%8D%E5%AF%B9%EF%BC%8C%E5%8F%AF%E8%83%BD%E6%97%A0%E6%B3%95%E5%BC%80%E5%90%AF%EF%BC%8C%E8%AF%B7%E8%AE%A4%E7%9C%9F%E6%A3%80%E6%9F%A5%EF%BC%8C%E4%B8%8D%E8%A6%81%E5%BC%84%E9%94%99%EF%BC%81%EF%BC%81%EF%BC%81">http://miwifi.com/cgi-bin/luci/;stok=一小串密码/api/misystem/后面一大串）这样的形式，如果不对，可能无法开启，请认真检查，不要弄错！！！</a><br>如果以上方式无法开启SSH，请参考：<a href="https://www.right.com.cn/forum/thread-4032490-1-1.html%E6%88%96%E8%80%85%E5%8F%82%E8%80%83%EF%BC%9Ahttps://www.right.com.cn/forum/thread-4039512-1-1.html">https://www.right.com.cn/forum/thread-4032490-1-1.html或者参考：https://www.right.com.cn/forum/thread-4039512-1-1.html</a> 尝试更多方法开启。<br>#登陆SSH<br>使用SSH连接工具来登陆SSH，推荐putty（体积最小），JuiceSSH（支持安卓手机），或其他工具，SSH工具请自行下载。<br>打开SSH工具，在IP（或者host）一栏填写你路由器的网关IP，即刚刚登陆路由器管理界面的IP地址或网址（例如192.168.31.1或者miwifi.com）,端口为默认的22端口不变，密码为admin（刚刚那串破解码中设定的密码），设置好之后点击连接即可登陆路由器SSH！<br>建议修改默认的登陆密码，在SSH界面输入passwd即可修改密码，注意修改时需要输入2次密码，且输入的密码不会显示，输入好直接回车即可完成修改。<br>破解固化永久SSH教程<br>备份nand，运行如下命令：<br><code># nanddump -f /tmp/bdata_mtd9.img /dev/mtd9</code><br>运行成功后用winscp下载到电脑上备份好（以防万一）<br>接下来下载网盘中的破解文件（fuckax3600）<br>链接: <a href="https://pan.baidu.com/s/15QsNvM9qwgTVtk8zF843eA">https://pan.baidu.com/s/15QsNvM9qwgTVtk8zF843eA</a> 提取码: 8rcu<br>之后用winscp将该文件上传到路由器的&#x2F;tmp目录下，执行如下代码：<br><code>chmod +x /tmp/fuckax3600 &amp;&amp; /tmp/fuckax3600 unlock</code><br>机器会自动重启，重启后执行：<br><code>/tmp/fuckax3600 hack</code><br>会自动设置永久ssh、telnet、uart权限，同时会计算出默认的root密码，注意记录密码，恢复出厂后telnet和ssh需要用<br>最后执行：<br><code>/tmp/fuckax3600 lock</code><br>重启后即使恢复出厂ssid也能正常了<br>如升级后ssh被禁用可以用telnet登录，执行下面代码再次启用ssh<br><code>#sed -i &#39;s/channel=.*/channel=&quot;debug&quot;/g&#39; /etc/init.d/dropbear </code><br><code>#/etc/init.d/dropbear start</code><br>至此基本可以保证机器长期拥有root权限</p>
+]]></content>
+      <categories>
+        <category>路由器</category>
+      </categories>
+      <tags>
+        <tag>破解</tag>
+        <tag>小米</tag>
+        <tag>路由器</tag>
+        <tag>SSH</tag>
       </tags>
   </entry>
 </search>
