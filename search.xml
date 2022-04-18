@@ -486,6 +486,46 @@
       </tags>
   </entry>
   <entry>
+    <title>大金刚2 Donkey Kong II</title>
+    <url>/2022/04/18/g-w-donkeykongii/</url>
+    <content><![CDATA[<h4 id="技术规格"><a href="#技术规格" class="headerlink" title="技术规格"></a>技术规格</h4><table>
+<thead>
+<tr>
+<th align="center"></th>
+<th align="center"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">尺寸</td>
+<td align="center">长：168mm 宽：89mm 厚度：22mm</td>
+</tr>
+<tr>
+<td align="center">重量</td>
+<td align="center">90克</td>
+</tr>
+<tr>
+<td align="center">电池</td>
+<td align="center">2节纽扣电池(LR43或SR43)</td>
+</tr>
+<tr>
+<td align="center">型号</td>
+<td align="center">JR-55</td>
+</tr>
+</tbody></table>
+<h4 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h4><p>Green House 是 Game &amp; Watch 先生使用的攻击，他使用小型泵和可重复使用的少量气体对害虫进行攻击。</p>
+<h4 id="游戏图片"><a href="#游戏图片" class="headerlink" title="游戏图片"></a>游戏图片</h4><p><img src="https://cf-ipfs.com/ipfs/QmNTK8QWGbDW5GP8h3kmTP3QyyZWJ7Rr6jhGAwqDPrxYvd"></p>
+<p><img src="https://cf-ipfs.com/ipfs/QmRH7VUtH1MxQaDY3dLi82FQGGZ69Qebs477W9p8znqAbk"></p>
+<p><img src="https://cf-ipfs.com/ipfs/QmQE74qgC6CvMksMgSd6Yr69SNgKWJyBFVRzt734YzJApV"></p>
+]]></content>
+      <categories>
+        <category>Game&amp;Watch</category>
+      </categories>
+      <tags>
+        <tag>Game&amp;Watch</tag>
+        <tag>游戏</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Egg</title>
     <url>/2022/04/10/g-w-egg/</url>
     <content><![CDATA[<h4 id="技术规格"><a href="#技术规格" class="headerlink" title="技术规格"></a>技术规格</h4><table>
@@ -648,6 +688,46 @@
       </tags>
   </entry>
   <entry>
+    <title>温室 Green House</title>
+    <url>/2022/04/18/g-w-greenhouse/</url>
+    <content><![CDATA[<h4 id="技术规格"><a href="#技术规格" class="headerlink" title="技术规格"></a>技术规格</h4><table>
+<thead>
+<tr>
+<th align="center"></th>
+<th align="center"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">尺寸</td>
+<td align="center">长：168mm 宽：89mm 厚度：22mm</td>
+</tr>
+<tr>
+<td align="center">重量</td>
+<td align="center">90克</td>
+</tr>
+<tr>
+<td align="center">电池</td>
+<td align="center">2节纽扣电池(LR43或SR43)</td>
+</tr>
+<tr>
+<td align="center">型号</td>
+<td align="center">GH-54</td>
+</tr>
+</tbody></table>
+<h4 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h4><p>Green House 是 Game &amp; Watch 先生使用的攻击，他使用小型泵和可重复使用的少量气体对害虫进行攻击。</p>
+<h4 id="游戏图片"><a href="#游戏图片" class="headerlink" title="游戏图片"></a>游戏图片</h4><p><img src="https://cf-ipfs.com/ipfs/QmPqGwV2im358PwfY2VvkYbZEhQuW6aDyc2kCMwDCWrsnC"></p>
+<p><img src="https://cf-ipfs.com/ipfs/QmP1usAix5GygrgJekEPefHgnFKmsHP36U8PokfH1UXAoX"></p>
+<p><img src="https://cf-ipfs.com/ipfs/QmWKmPKosCrpZ6DkHf8YUXP9Zw9XJnq94AFxxaRQ83LKEN"></p>
+]]></content>
+      <categories>
+        <category>Game&amp;Watch</category>
+      </categories>
+      <tags>
+        <tag>Game&amp;Watch</tag>
+        <tag>游戏</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Helmet 头盔</title>
     <url>/2022/04/05/g-w-helmet/</url>
     <content><![CDATA[<h4 id="技术规格"><a href="#技术规格" class="headerlink" title="技术规格"></a>技术规格</h4><table>
@@ -784,8 +864,8 @@
 <td>1943(最终可视化)</td>
 </tr>
 <tr>
-<td>4 Nin Uchi Mahjong (J)</td>
-<td>4人麻将</td>
+<td><a href="https://blog.mwifi.top/2022/04/16/fc-4-nin-uchi-mahjong/">4 Nin Uchi Mahjong (J)</a></td>
+<td><a href="https://blog.mwifi.top/2022/04/16/fc-4-nin-uchi-mahjong/">4人麻将</a></td>
 </tr>
 <tr>
 <td>Adventure Island 1</td>
@@ -1272,8 +1352,8 @@
 <td>野狼行动</td>
 </tr>
 <tr>
-<td>Pac-Man (J)</td>
-<td>吃豆人</td>
+<td><a href="https://blog.mwifi.top/2022/04/16/fc-pac-man/">Pac-Man (J)</a></td>
+<td><a href="https://blog.mwifi.top/2022/04/16/fc-pac-man/">吃豆人</a></td>
 </tr>
 <tr>
 <td>Parodius-Hack</td>
@@ -1440,8 +1520,8 @@
 <td>兵蜂一代</td>
 </tr>
 <tr>
-<td>Urban Champion (cn)</td>
-<td>街头小子</td>
+<td><a href="https://blog.mwifi.top/2022/04/16/fc-urbanchampion/">Urban Champion (cn)</a></td>
+<td><a href="https://blog.mwifi.top/2022/04/16/fc-urbanchampion/">街头小子</a></td>
 </tr>
 <tr>
 <td>Wai Wai World (J)</td>
@@ -2820,8 +2900,8 @@
 <td>G&amp;W大金刚 Jr</td>
 </tr>
 <tr>
-<td>Game &amp; Watch Donkey Kong</td>
-<td>G&amp;W大金刚</td>
+<td><a href="https://blog.mwifi.top/2022/04/18/g-w-donkeykong/">Game &amp; Watch Donkey Kong</a></td>
+<td><a href="https://blog.mwifi.top/2022/04/18/g-w-donkeykong/">G&amp;W大金刚</a></td>
 </tr>
 <tr>
 <td><a href="https://blog.mwifi.top/2022/04/10/g-w-egg/">Game &amp; Watch Egg</a></td>
@@ -2912,8 +2992,8 @@
 <td><a href="https://blog.mwifi.top/2022/04/07/g-w-octopus/">G&amp;W章鱼大冒险</a></td>
 </tr>
 <tr>
-<td>Game &amp; Watch Oil Panic</td>
-<td>G&amp;W漏油危机</td>
+<td><a href="https://blog.mwifi.top/2022/04/18/g-w-oilpanic/">Game &amp; Watch Oil Panic</a></td>
+<td><a href="https://blog.mwifi.top/2022/04/18/g-w-oilpanic/">G&amp;W漏油危机</a></td>
 </tr>
 <tr>
 <td><a href="https://blog.mwifi.top/2022/04/07/g-w-parachute/">Game &amp; Watch Parachute</a></td>
@@ -3131,6 +3211,46 @@
 <p><img src="https://cf-ipfs.com/ipfs/QmdBgqXrtmUyD1zQUTYp58jUkhxhGXATkuY8AzkkzpwgSF"></p>
 <p><img src="https://cf-ipfs.com/ipfs/Qma917q62eHcNBS1dh8swuJ85eVdTiuQmScWvwhWxokw65"></p>
 <p><img src="https://cf-ipfs.com/ipfs/QmYgQiLW69Q3Z7sL6R4aZtdGgF4bSeems8vQ2bqNjBLeN2"></p>
+]]></content>
+      <categories>
+        <category>Game&amp;Watch</category>
+      </categories>
+      <tags>
+        <tag>Game&amp;Watch</tag>
+        <tag>游戏</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>米老鼠和唐老鸭 Mickey and Donald</title>
+    <url>/2022/04/18/g-w-mickeyanddonald/</url>
+    <content><![CDATA[<h4 id="技术规格"><a href="#技术规格" class="headerlink" title="技术规格"></a>技术规格</h4><table>
+<thead>
+<tr>
+<th align="center"></th>
+<th align="center"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">尺寸</td>
+<td align="center">长：168mm 宽：89mm 厚度：22mm</td>
+</tr>
+<tr>
+<td align="center">重量</td>
+<td align="center">90克</td>
+</tr>
+<tr>
+<td align="center">电池</td>
+<td align="center">2节纽扣电池(LR43或SR43)</td>
+</tr>
+<tr>
+<td align="center">型号</td>
+<td align="center">DM-53</td>
+</tr>
+</tbody></table>
+<h4 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h4><p><em><strong>米奇与唐老鸭</strong></em>是任天堂于1982 年发布的多屏Game &amp; Watch视频游戏机。它由迪士尼的两家公司米老鼠和唐老鸭主演。游戏的型号为 DM-53（D 代表唐纳德，M 代表米奇）。游戏的第二个版本不包括向玩家解释如何控制游戏的传单。在游戏中，您将控制两个以灭火为目标的角色。</p>
+<h4 id="游戏图片"><a href="#游戏图片" class="headerlink" title="游戏图片"></a>游戏图片</h4><p><img src="https://cf-ipfs.com/ipfs/QmZx364nDGQMy5ohJ8Jy2Ro18cNsdkvHG2Cg85xj3ZhJGN"></p>
+<p><img src="https://cf-ipfs.com/ipfs/QmTXdtxohiZoNG6q4HswC1aiX8yy9YNAaHQc5HBrDLqDRX"></p>
+<p><img src="https://cf-ipfs.com/ipfs/QmZx364nDGQMy5ohJ8Jy2Ro18cNsdkvHG2Cg85xj3ZhJGN"></p>
 ]]></content>
       <categories>
         <category>Game&amp;Watch</category>
