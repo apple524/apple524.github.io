@@ -486,7 +486,6 @@ BJ-60
 <h4 id="游戏图片"><a href="#游戏图片" class="headerlink" title="游戏图片"></a>游戏图片</h4><p><img src="https://cf-ipfs.com/ipfs/QmThYy7yJVm4uFMS7GGxYJUdXJG5Yj9nZ1KXf78XH6ngRi"></p>
 <p><img src="https://cf-ipfs.com/ipfs/Qmf4jJp4QijU1b8b1QupC6JHmmWRHVRYLreMPjGA4e66NU"></p>
 <p><img src="https://cf-ipfs.com/ipfs/QmTHd2f43aVTW6aP6xz5LxwsmjEdKxZsSR8AkkFuysHLfE"></p>
-<p><img src="https://cf-ipfs.com/ipfs/QmQCGjW5KRMNbRYrsiAtYL1Wf1K8e8rDBNL6n15cqydaEz"></p>
 
                 
             </div>
@@ -1257,34 +1256,6 @@ $(function () {
     <script async src="/libs/others/busuanzi.pure.mini.js"></script>
     
 
-    
-        <script src="//code.tidio.co/wui6aulspck8zv9xityei1ugnsnufuei.js"></script>
-        <script>
-            $(document).ready(function () {
-                setInterval(change_Tidio, 50);
-                function change_Tidio() {
-                    var tidio=$("#tidio-chat iframe");
-                    if(tidio.css("display")=="block"&& $(window).width()>977 ){
-                        document.getElementById("tidio-chat-iframe").style.bottom= ($("div#backTop.top-scroll").css("display")=="none" &&$(window).width()>977)>0? "-40px" : ($("div.toc-title").length&&$(window).width()>977)>0?"85px":"20px";
-                        document.getElementById("tidio-chat-iframe").style.right="-15px";
-                        document.getElementById("tidio-chat-iframe").style.height=parseInt(tidio.css("height"))>=520?"520px":tidio.css("height");
-                        document.getElementById("tidio-chat-iframe").style.zIndex="997";
-                    }
-                    else if(tidio.css("display")=="block"&&$(window).width()>601 &&$(window).width()<992 ){
-                        document.getElementById("tidio-chat-iframe").style.bottom= ($("div#backTop.top-scroll").css("display")=="none" && 601< $(window).width()<992)>0? "-40px":"20px" ;
-                        document.getElementById("tidio-chat-iframe").style.right="-15px";
-                        document.getElementById("tidio-chat-iframe").style.zIndex="997";
-                    }
-                    else if(tidio.css("display")=="block"&&$(window).width()<601 && parseInt(tidio.css("height"))<230){
-                        document.getElementById("tidio-chat-iframe").style.bottom= ($("div#backTop.top-scroll").css("display")=="none" && $(window).width()<601)>0? "-10px":"45px" ;
-                        document.getElementById("tidio-chat-iframe").style.zIndex="997";
-                    }
-                    if( tidio.css("display")=="block"&&$(window).width()<601 && parseInt(tidio.css("height"))>=230){
-                        document.getElementById("tidio-chat-iframe").style.zIndex="998";
-                    }
-                }
-            });
-        </script>
     
 
     
