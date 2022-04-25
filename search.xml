@@ -5025,35 +5025,42 @@
 
 
 <h4 id="安装openOCD"><a href="#安装openOCD" class="headerlink" title="安装openOCD"></a>安装openOCD</h4><ol>
-<li><p>下载相关库：<br><figure class="highlight html"><table><tr><td class="code"><pre><span class="line">sudo apt-get install build-essential pkg-config autoconf automake libtool libusb-dev libusb-1.0-0-dev libhidapi-dev -y</span><br></pre></td></tr></table></figure><br><figure class="highlight html"><table><tr><td class="code"><pre><span class="line">sudo apt-get install libtool libsysfs-dev libftdi1-2 -y</span><br></pre></td></tr></table></figure></p>
+<li><p>下载相关库：<br>sudo apt-get install build-essential pkg-config autoconf automake libtool libusb-dev libusb-1.0-0-dev libhidapi-dev -y<br>sudo apt-get install libtool libsysfs-dev libftdi1-2 -y</p>
 </li>
-<li><p>安装openocd：<br><figure class="highlight html"><table><tr><td class="code"><pre><span class="line">wget https://nightly.link/kbeckmann/ubuntu-openocd-git-builder/workflows/docker/master/openocd-git.deb.zip</span><br></pre></td></tr></table></figure></p>
+<li><p>安装openocd：<br>wget <a href="https://nightly.link/kbeckmann/ubuntu-openocd-git-builder/workflows/docker/master/openocd-git.deb.zip">https://nightly.link/kbeckmann/ubuntu-openocd-git-builder/workflows/docker/master/openocd-git.deb.zip</a></p>
 </li>
 </ol>
-<pre><code><figure class="highlight html"><table><tr><td class="code"><pre><span class="line">unzip openocd-git.deb.zip</span><br><span class="line">sudo dpkg -i openocd-git_*_amd64.deb</span><br><span class="line">sudo apt-get -y -f install</span><br><span class="line">export OPENOCD=&quot;/opt/openocd-git/bin/openocd&quot;     或者</span><br><span class="line">sudo vim /etc/profile#export </span><br><span class="line">     PATH=$PATH:/opt/openocd-git/bin/#source ~/.bashrc</span><br></pre></td></tr></table></figure>
+<pre><code>unzip openocd-git.deb.zip
+sudo dpkg -i openocd-git_*_amd64.deb
+sudo apt-get -y -f install
+export OPENOCD=&quot;/opt/openocd-git/bin/openocd&quot;     或者
+sudo vim /etc/profile#export 
+     PATH=$PATH:/opt/openocd-git/bin/#source ~/.bashrc
 </code></pre>
-<h4 id="安装-arm-gcc-none-eabi-toolchain-10-2-0及以上版本"><a href="#安装-arm-gcc-none-eabi-toolchain-10-2-0及以上版本" class="headerlink" title="安装 arm-gcc-none-eabi toolchain. 10.2.0及以上版本"></a>安装 arm-gcc-none-eabi toolchain. 10.2.0及以上版本</h4><figure class="highlight html"><table><tr><td class="code"><pre><span class="line">sudo apt install libncurses-dev</span><br><span class="line">sudo apt-get install lsb-core -y</span><br></pre></td></tr></table></figure>
-<h4 id="安装安装备份破解模块"><a href="#安装安装备份破解模块" class="headerlink" title="安装安装备份破解模块"></a>安装安装备份破解模块</h4><pre><code>`git clone https://github.com/ghidraninja/game-and-watch-backup`
+<h4 id="安装-arm-gcc-none-eabi-toolchain-10-2-0及以上版本"><a href="#安装-arm-gcc-none-eabi-toolchain-10-2-0及以上版本" class="headerlink" title="安装 arm-gcc-none-eabi toolchain. 10.2.0及以上版本"></a>安装 arm-gcc-none-eabi toolchain. 10.2.0及以上版本</h4><pre><code>sudo apt install libncurses-dev
+sudo apt-get install lsb-core -y
 </code></pre>
-<h4 id="安装game-and-watch-retro-go程序"><a href="#安装game-and-watch-retro-go程序" class="headerlink" title="安装game-and-watch-retro-go程序"></a>安装game-and-watch-retro-go程序</h4><pre><code>`git clone https://github.com/olderzeus/game-and-watch-retro-go`
+<h4 id="安装安装备份破解模块"><a href="#安装安装备份破解模块" class="headerlink" title="安装安装备份破解模块"></a>安装安装备份破解模块</h4><pre><code>git clone https://github.com/ghidraninja/game-and-watch-backup`
+</code></pre>
+<h4 id="安装game-and-watch-retro-go程序"><a href="#安装game-and-watch-retro-go程序" class="headerlink" title="安装game-and-watch-retro-go程序"></a>安装game-and-watch-retro-go程序</h4><pre><code>git clone https://github.com/olderzeus/game-and-watch-retro-go`
 强烈推荐使用这个github的发布，带封面，优化效果好！！！
 </code></pre>
-<h4 id="安装双系统补丁"><a href="#安装双系统补丁" class="headerlink" title="安装双系统补丁"></a>安装双系统补丁</h4><pre><code>`git clone https://github.com/BrianPugh/game-and-watch-patch`
+<h4 id="安装双系统补丁"><a href="#安装双系统补丁" class="headerlink" title="安装双系统补丁"></a>安装双系统补丁</h4><pre><code>git clone https://github.com/BrianPugh/game-and-watch-patch`
 </code></pre>
 <p>至此软件部分的工作完成</p>
 <h4 id="硬件破解"><a href="#硬件破解" class="headerlink" title="硬件破解"></a>硬件破解</h4><p>使用stlinkV2 连接到Game&amp;Watch设备，连接对应引脚如下图所示<br><img src="https://cf-ipfs.com/ipfs/QmeKVi1tCtoYKVUTG7STjBisjvhpt2gy8EC5EBhfxAoxQ4"><br>警告：在连接前请断开电池接口，连接调试器时，请确保至少连接了SWDIO、SWDCLK和GND。在任何情况下都不要将3.3V连接到VDD连接，否则可能会损坏SPI闪存。</p>
 <h4 id="刷机步骤"><a href="#刷机步骤" class="headerlink" title="刷机步骤"></a>刷机步骤</h4><ol>
 <li>进入game-and-watch-backup程序 备份并破解原始固件</li>
-<li><code>./1_sanity_check.sh stlink mario(zelda)</code><br>   执行健全性检查并确保所有必需的工具都可用 显示Looks good！表示软件都正常部署</li>
-<li><code>./2_backup_flash.sh stlink mario</code><br>  备份 SPI 闪存的内容，不修改设备内容，在Game&amp;Watch时钟画面进行，备份不成功可以多尝试几次</li>
-<li><code>./3_backup_internal_flash.sh stlink mario(zelda)</code><br>  备份内部闪存。为此，需要修改 SPI闪存的内容。您的设备将停止工作，直到它在第 5 步中恢复<br>  备份中药断电再开建议见个秒以上，出现蓝屏画面按Enter继续，如果没有显示蓝屏，按下主机上的TIME键从新开始</li>
-<li><code>./4_unlock_device.sh stlink mario(zelda)</code><br>  这将禁用主动读取保护。这将擦除 STM32 的内部闪存</li>
-<li><code>./5_restore.sh stlink mario(zelda)</code><br>  这将恢复原始固件</li>
+<li>.&#x2F;1_sanity_check.sh stlink mario(zelda)&#96;<br>   执行健全性检查并确保所有必需的工具都可用 显示Looks good！表示软件都正常部署</li>
+<li>.&#x2F;2_backup_flash.sh stlink mario&#96;<br>  备份 SPI 闪存的内容，不修改设备内容，在Game&amp;Watch时钟画面进行，备份不成功可以多尝试几次</li>
+<li>.&#x2F;3_backup_internal_flash.sh stlink mario(zelda)&#96;<br>  备份内部闪存。为此，需要修改 SPI闪存的内容。您的设备将停止工作，直到它在第 5 步中恢复<br>  备份中药断电再开建议见个秒以上，出现蓝屏画面按Enter继续，如果没有显示蓝屏，按下主机上的TIME键从新开始</li>
+<li>.&#x2F;4_unlock_device.sh stlink mario(zelda)&#96;<br>  这将禁用主动读取保护。这将擦除 STM32 的内部闪存</li>
+<li>.&#x2F;5_restore.sh stlink mario(zelda)&#96;<br>  这将恢复原始固件</li>
 </ol>
 <p>以上步骤完成后，会在game-and-watch-backup&#x2F;backups 目录下得到 flash_backup_mario.bin、internal_flash_backup_mario.bin、itcm_backup_mario.bin 三个文件，请妥善保存。</p>
 <h4 id="安装模拟器"><a href="#安装模拟器" class="headerlink" title="安装模拟器"></a>安装模拟器</h4><p>进入 game-and-watch-retro-go模拟器目录<br><img src="https://cf-ipfs.com/ipfs/QmajDf5VqxkxuMAKkfHTrUEoy6ues8hnEmUAx55yRPTKqf"><br>将游戏按照不同的类型放置到相应的游戏目录下面(游戏名字和对应的封面照片文件名相同)<br>修改每个模拟器下面的 json 文件，如下图所示：<br><img src="https://cf-ipfs.com/ipfs/QmcpEGQXnmfzoPa3werUEYtFfUtmj1jhUk67Q6LHFNVjG6"></p>
-<p>确认以上文件都放置正常位置以后就可以开始编译系统了<br>运行以下命令：<br>    <code>make clean</code><br>    <code>make romdef</code><br>    <code>make -j8 EXTFLASH_SIZE_MB=63 EXTFLASH_OFFSET=1048576 INTFLASH_BANK=2 CODEPAGE=936   COVERFLOW=1 GNW_TARGET=mario GAME_GENIE=1 flash</code><br>    请根据自身机器调整各项参数<br>    SIZE_MB：扩容后内存容量 如果安装双系统 马里奥机器减去1M，塞尔达机器减去4M，此为原始固件占用容量<br>    INTFLASH_BANK：1 单系统  2 双系统<br>    CODEPAGE：936 - 简体中文  1252 - English  950 - 繁體中文<br>    COVERFLOW: 1 显示封面  0 不显示封面<br>    GAME_GENIE: 1 打开金手指  0 不打开金手指 </p>
-<h4 id="安装双系统补丁-1"><a href="#安装双系统补丁-1" class="headerlink" title="安装双系统补丁"></a>安装双系统补丁</h4><p>进入 game-and-watch-patch 目录安装双系统补丁<br>将game-and-watch-backup 程序备份的系统文件复制到game-and-watch-patch目录下面<br>运行以下命令：<br>    <code>make clean</code><br>    <code>make PATCH_PARAMS=&quot;--device=mario --internal-only&quot; flash_patched</code><br>    <code>make PATCH_PARAMS=&quot; --smb1=path-to-patched-smb1-rom.nes&quot; flash_patched</code></p>
+<p>确认以上文件都放置正常位置以后就可以开始编译系统了<br>运行以下命令：<br>    make clean<br>    make romdef<br>    make -j8 EXTFLASH_SIZE_MB&#x3D;63 EXTFLASH_OFFSET&#x3D;1048576 INTFLASH_BANK&#x3D;2 CODEPAGE&#x3D;936   COVERFLOW&#x3D;1 GNW_TARGET&#x3D;mario GAME_GENIE&#x3D;1 flash<br>    请根据自身机器调整各项参数<br>    SIZE_MB：扩容后内存容量 如果安装双系统 马里奥机器减去1M，塞尔达机器减去4M，此为原始固件占用容量<br>    INTFLASH_BANK：1 单系统  2 双系统<br>    CODEPAGE：936 - 简体中文  1252 - English  950 - 繁體中文<br>    COVERFLOW: 1 显示封面  0 不显示封面<br>    GAME_GENIE: 1 打开金手指  0 不打开金手指 </p>
+<h4 id="安装双系统补丁-1"><a href="#安装双系统补丁-1" class="headerlink" title="安装双系统补丁"></a>安装双系统补丁</h4><p>进入 game-and-watch-patch 目录安装双系统补丁<br>将game-and-watch-backup 程序备份的系统文件复制到game-and-watch-patch目录下面<br>运行以下命令：<br>    make clean<br>    make PATCH_PARAMS&#x3D;”–device&#x3D;mario –internal-only” flash_patched<br>    make PATCH_PARAMS&#x3D;” –smb1&#x3D;path-to-patched-smb1-rom.nes” flash_patched</p>
 <p>至此全部安装工作完成</p>
 <p><img src="https://cf-ipfs.com/ipfs/QmYLZd1J59s1a48mKdpJxxSTAB1p5zijnbHqppXiQdiyKa"></p>
 <p><img src="https://cf-ipfs.com/ipfs/QmbSoSURpJjGVWNa2HEApHyjGffa5okxop8uLo8m74Y997"></p>
@@ -5296,6 +5303,33 @@
         <tag>小米</tag>
         <tag>路由器</tag>
         <tag>Clash</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>小米路由器R2D R3D misstar2.0离线版安装教程</title>
+    <url>/2022/04/25/xiaomi-r3d-misstar/</url>
+    <content><![CDATA[<p><a href="https://pan.baidu.com/s/1hTTc_2EQJv4RrNCZf8URdw?pwd=ykjy">百度网盘</a> 提取码: ykjy </p>
+<h4 id="准备工作："><a href="#准备工作：" class="headerlink" title="准备工作："></a>准备工作：</h4><p>路由器开启SSH  SSH连接软件</p>
+<h4 id="教程"><a href="#教程" class="headerlink" title="教程"></a>教程</h4><ol>
+<li><p>复制R3D目录和offline_install.sh到 &#x2F;tmp</p>
+</li>
+<li><p>ssh登录后，cd到 &#x2F;tmp </p>
+<p> ​    chmod +x offline_install.sh<br> ​    .&#x2F;offline_install.sh</p>
+</li>
+<li><p>手动安装插件的命令，appmanager 命令 文件名<br> parameter&#x3D;Misstar_Tools@2017<br> &#x2F;etc&#x2F;misstar&#x2F;scripts&#x2F;appmanager add webshell<br> &#x2F;etc&#x2F;misstar&#x2F;scripts&#x2F;appmanager add ftp<br> &#x2F;etc&#x2F;misstar&#x2F;scripts&#x2F;appmanager add rm<br> &#x2F;etc&#x2F;misstar&#x2F;scripts&#x2F;appmanager add pptpd<br> &#x2F;etc&#x2F;misstar&#x2F;scripts&#x2F;appmanager add koolproxy<br> &#x2F;etc&#x2F;misstar&#x2F;scripts&#x2F;appmanager add kms<br> &#x2F;etc&#x2F;misstar&#x2F;scripts&#x2F;appmanager add frp<br> &#x2F;etc&#x2F;misstar&#x2F;scripts&#x2F;appmanager add aliddns<br> &#x2F;etc&#x2F;misstar&#x2F;scripts&#x2F;appmanager add adm<br> &#x2F;etc&#x2F;misstar&#x2F;scripts&#x2F;appmanager add ss</p>
+<p> 如果需要卸载<br> &#x2F;etc&#x2F;misstar&#x2F;scripts&#x2F;appmanager del rm</p>
+<p> 插件文件名说明<br> ftp         VSFTP服务器<br> rm            远程管理<br> webshell     在线Sheel<br> pptpd        基于PPTP的VPN服务器<br> koolproxy    Koolproxy广告过滤<br> kms            KMS服务器<br> frp            Frp内网穿透<br> aria2        Aria2离线下载器，挂机下载神器<br> aliddns        阿里的域名解析插件<br> adm            阿呆喵广告过滤插件</p>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>路由器</category>
+      </categories>
+      <tags>
+        <tag>破解</tag>
+        <tag>小米</tag>
+        <tag>路由器</tag>
+        <tag>misstar2.0</tag>
       </tags>
   </entry>
   <entry>
