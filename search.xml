@@ -3225,8 +3225,8 @@
 <td>成龙之龙</td>
 </tr>
 <tr>
-<td>Kiki Kaikai(HACK)</td>
-<td>奇奇怪世界(无敌版)</td>
+<td><a href="https://blog.mwifi.top/2022/04/27/pce-kikikaiworld/">Kiki Kaikai(HACK)</a></td>
+<td><a href="https://blog.mwifi.top/2022/04/27/pce-kikikaiworld/">奇奇怪界(无敌版)</a></td>
 </tr>
 <tr>
 <td>Nekketsu Koukou Dodgeball  Bu - PC Bangai Hen (J)</td>
@@ -5145,13 +5145,90 @@ sudo apt-get install lsb-core -y
       </tags>
   </entry>
   <entry>
+    <title>中华大仙 Cloud Master</title>
+    <url>/2022/04/27/pce-cloudmaster/</url>
+    <content><![CDATA[<table>
+<thead>
+<tr>
+<th align="center">中文名称</th>
+<th align="center">中华大仙</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">日文名称</td>
+<td align="center">极楽！中华大仙</td>
+</tr>
+<tr>
+<td align="center">英文名称</td>
+<td align="center">Cloud Master</td>
+</tr>
+<tr>
+<td align="center">发行厂商</td>
+<td align="center">TAITO</td>
+</tr>
+<tr>
+<td align="center">发行日期</td>
+<td align="center">1988&#x2F;9&#x2F;18</td>
+</tr>
+</tbody></table>
+<h4 id="游戏简介"><a href="#游戏简介" class="headerlink" title="游戏简介"></a>游戏简介</h4><p>是Taito于1988年为街机发行的横向滚动射击游戏。</p>
+<p>玩家控制中华大仙漂浮在云层上，在屏幕上移动动，向飞行的敌人发射能量球。可以收集能量以获得更强大和更快的火力。游戏阶段的某些部分设有门，让玩家有机会购买带有收藏积分的特殊炸弹类型。每个阶段都有自己的小BOSS和大BOSS。玩家在失去生命后在某些检查点重新开始。</p>
+<p><img src="https://cf-ipfs.com/ipfs/QmSVyJKP94hBHK5HwoVC1b6Q1QoNfb9h3txJK7SXCMLgLQ"></p>
+<h4 id="游戏视频"><a href="#游戏视频" class="headerlink" title="游戏视频"></a>游戏视频</h4><iframe src="//player.bilibili.com/player.html?aid=468538385&bvid=BV18541117fG&cid=586172911&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width=100% height="472px"> </iframe>
+]]></content>
+      <categories>
+        <category>PCE</category>
+      </categories>
+      <tags>
+        <tag>PCE</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>中华大仙 Detana!! Twinbee</title>
+    <url>/2022/04/27/pce-detanatwinbee/</url>
+    <content><![CDATA[<table>
+<thead>
+<tr>
+<th align="center">中文名称</th>
+<th align="center">兵蜂</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">日文名称</td>
+<td align="center">出たな！ツインビー</td>
+</tr>
+<tr>
+<td align="center">英文名称</td>
+<td align="center">Detana!! Twinbee</td>
+</tr>
+<tr>
+<td align="center">发行厂商</td>
+<td align="center">Konami</td>
+</tr>
+<tr>
+<td align="center">发行日期</td>
+<td align="center">1992&#x2F;2&#x2F;28</td>
+</tr>
+</tbody></table>
+<h4 id="游戏简介"><a href="#游戏简介" class="headerlink" title="游戏简介"></a>游戏简介</h4><p>是一款垂直滚动的射击游戏，遵循原版<em>TwinBee</em>中建立的相同惯例，玩家扮演 Light 和 Pastel 的角色控制 TwinBee (P1) 和 WinBee (P2) 在收到梅洛拉公主的求救信息后，跨越七个关卡打败邪恶的外星人伊娃的入侵力量，拯救梅鲁星球。</p>
+<p>兵蜂也是自FC时代就为大家所熟悉的经典游戏了，我觉得系列中不可不玩的还有SFC版和PCE版的，本作无论从色彩、人设、音效方面都不输SFC的，总之是不可错过的佳作~强力推荐</p>
+<p><img src="https://cf-ipfs.com/ipfs/QmbRyVLunrpwNeJzNZz7Kie3TsLxLVkXvp5D2jbYrrLbBk"></p>
+<h4 id="游戏视频"><a href="#游戏视频" class="headerlink" title="游戏视频"></a>游戏视频</h4><iframe src="//player.bilibili.com/player.html?aid=511069637&bvid=BV1Ru411k7Cm&cid=586264520&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"  width=100% height="472px"> </iframe>]]></content>
+      <categories>
+        <category>PCE</category>
+      </categories>
+      <tags>
+        <tag>PCE</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>奇奇怪界 Kiki Kai World</title>
     <url>/2022/04/27/pce-kikikaiworld/</url>
     <content><![CDATA[<table>
 <thead>
 <tr>
-<th align="center">英文名称</th>
-<th align="center">Kiki Kai World</th>
+<th align="center">中文名称</th>
+<th align="center">奇奇怪界</th>
 </tr>
 </thead>
 <tbody><tr>
@@ -5159,20 +5236,16 @@ sudo apt-get install lsb-core -y
 <td align="center">奇々怪界</td>
 </tr>
 <tr>
-<td align="center">中文名称</td>
-<td align="center">奇奇怪界</td>
+<td align="center">英文名称</td>
+<td align="center">Kiki Kai World</td>
 </tr>
 <tr>
 <td align="center">发行厂商</td>
 <td align="center">TAITO</td>
 </tr>
 <tr>
-<td align="center">日币售价</td>
-<td align="center"></td>
-</tr>
-<tr>
 <td align="center">发行日期</td>
-<td align="center">1991&#x2F;3&#x2F;22</td>
+<td align="center">1989&#x2F;9&#x2F;18</td>
 </tr>
 </tbody></table>
 <h4 id="游戏简介"><a href="#游戏简介" class="headerlink" title="游戏简介"></a>游戏简介</h4><p>《奇奇怪界》（奇々怪界）是1986年由TAITO所制作发行的一款街机射击动作游戏，游戏内容为巫女小夜闯越重重关卡营救被妖怪们掳走的七福神。此后在超级任天堂等游戏机平台亦有移植版，其续作有《奇奇怪界 谜样的黑斗篷》（奇々怪界 謎の黒マント）、《奇奇怪界 月夜草子》（奇々怪界 月夜草子）与《奇奇怪界Advance》。</p>
