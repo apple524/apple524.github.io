@@ -3312,24 +3312,24 @@
 <td><a href="https://blog.mwifi.top/2022/04/19/pce-1943kai/">1943改(中文)</a></td>
 </tr>
 <tr>
-<td>Bomberman (U)</td>
-<td>炸弹人</td>
+<td><a href="https://blog.mwifi.top/2022/05/16/pce-bomberman/">Bomberman (U)</a></td>
+<td><a href="https://blog.mwifi.top/2022/05/16/pce-bomberman/">炸弹人</a></td>
 </tr>
 <tr>
-<td>Bomberman ‘93 (U)</td>
-<td>93炸弹人</td>
+<td><a href="https://blog.mwifi.top/2022/05/16/pce-bomberman93/">Bomberman ‘93 (U)</a></td>
+<td><a href="https://blog.mwifi.top/2022/05/16/pce-bomberman93/">93炸弹人</a></td>
 </tr>
 <tr>
-<td>Bomberman ‘94 (J)</td>
-<td>炸弹人 ‘94</td>
+<td><a href="https://blog.mwifi.top/2022/05/16/pce-bomberman94/">Bomberman ‘94 (J)</a></td>
+<td><a href="https://blog.mwifi.top/2022/05/16/pce-bomberman94/">炸弹人 ‘94</a></td>
 </tr>
 <tr>
-<td>City Hunter</td>
-<td>城市猎人</td>
+<td><a href="https://blog.mwifi.top/2022/05/16/pce-city-hunter/">City Hunter</a></td>
+<td><a href="https://blog.mwifi.top/2022/05/16/pce-city-hunter/">城市猎人</a></td>
 </tr>
 <tr>
-<td>Dead Moon(HACK)</td>
-<td>死亡月球(无敌版)</td>
+<td><a href="https://blog.mwifi.top/2022/05/16/pce-dead-moon/">Dead Moon(HACK)</a></td>
+<td><a href="https://blog.mwifi.top/2022/05/16/pce-dead-moon/">死亡月球(无敌版)</a></td>
 </tr>
 <tr>
 <td><a href="https://blog.mwifi.top/2022/04/27/pce-detanatwinbee/">Detana!! Twinbee (J)</a></td>
@@ -3380,8 +3380,8 @@
 <td>乌兹冲锋枪(无敌版)</td>
 </tr>
 <tr>
-<td>Parodius da! - Shinwa Kara  Owarai he (Japan)</td>
-<td>Q版沙罗曼蛇</td>
+<td><a href="https://blog.mwifi.top/2022/05/13/pce-parodiusda/">Parodius da! - Shinwa Kara  Owarai he (Japan)</a></td>
+<td><a href="https://blog.mwifi.top/2022/05/13/pce-parodiusda/">Q版沙罗曼蛇</a></td>
 </tr>
 <tr>
 <td>PC Genjin 2</td>
@@ -3400,16 +3400,16 @@
 <td><a href="https://blog.mwifi.top/2022/04/16/pce-r-type2/">R-Type II (J)</a></td>
 </tr>
 <tr>
-<td>Salamander (J)</td>
-<td>沙罗曼蛇</td>
+<td><a href="https://blog.mwifi.top/2022/05/15/pce-saramanda/">Salamander (J)</a></td>
+<td><a href="https://blog.mwifi.top/2022/05/15/pce-saramanda/">沙罗曼蛇</a></td>
 </tr>
 <tr>
-<td>Son Son II (J)</td>
-<td>西游记二代</td>
+<td><a href="https://blog.mwifi.top/2022/05/16/pce-sonson2/">Son Son II (J)</a></td>
+<td><a href="https://blog.mwifi.top/2022/05/16/pce-sonson2/">西游记二代</a></td>
 </tr>
 <tr>
-<td>Street Fighter II’ -  Champion Edition (Japan)</td>
-<td>街霸2代</td>
+<td><a href="https://blog.mwifi.top/2022/05/16/pce-streetfighter2/">Street Fighter II’ -  Champion Edition (Japan)</a></td>
+<td><a href="https://blog.mwifi.top/2022/05/16/pce-streetfighter2/">街霸2代</a></td>
 </tr>
 <tr>
 <td>Final Soldier - Special  Version (Japan) (En)</td>
@@ -5199,6 +5199,43 @@ sudo apt-get install lsb-core -y
       <tags>
         <tag>Game&amp;Watch</tag>
         <tag>破解</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>热斗系列-侍魂 Samurai Spirits</title>
+    <url>/2022/05/16/gb-samuraispirits/</url>
+    <content><![CDATA[<table>
+<thead>
+<tr>
+<th align="center">中文名称</th>
+<th align="center">热斗系列-侍魂</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">日文名称</td>
+<td align="center">サムライスピリッツ</td>
+</tr>
+<tr>
+<td align="center">英文名称</td>
+<td align="center">Samurai Spirits</td>
+</tr>
+<tr>
+<td align="center">发行厂商</td>
+<td align="center">TAKARA</td>
+</tr>
+<tr>
+<td align="center">发行日期</td>
+<td align="center">1995-02-22</td>
+</tr>
+</tbody></table>
+<p><img src="https://i.ibb.co/R32zQLC/33876-nettou-samurai-spirits.png"></p>
+<h4 id="游戏简介"><a href="#游戏简介" class="headerlink" title="游戏简介"></a>游戏简介</h4><p>GB热斗侍魂日文版是一款格斗类的街机游戏，也是热斗侍魂1，音乐并没有照搬街机版，霸王丸、桔右京等场地的音乐，街机上用了鼓声作为BGM，以当时TAKARA的实力，很难移植街机的音乐，所以用了完全不相干的音乐作为BGM。</p>
+<h4 id="游戏视频"><a href="#游戏视频" class="headerlink" title="游戏视频"></a>游戏视频</h4><iframe src="//player.bilibili.com/player.html?aid=639101264&bvid=BV1cY4y1k73e&cid=721785992&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"  width=100% height="472px"> </iframe>]]></content>
+      <categories>
+        <category>GB</category>
+      </categories>
+      <tags>
+        <tag>GB</tag>
       </tags>
   </entry>
   <entry>
