@@ -6153,7 +6153,7 @@ sudo apt-get install lsb-core -y
     <content><![CDATA[<h4 id="OpenWrt下的Transmission端口转发设置"><a href="#OpenWrt下的Transmission端口转发设置" class="headerlink" title="OpenWrt下的Transmission端口转发设置"></a>OpenWrt下的Transmission端口转发设置</h4><h4 id="一、Transmission设置"><a href="#一、Transmission设置" class="headerlink" title="一、Transmission设置"></a>一、Transmission设置</h4><p>首先将Transmission的传输端口固定 默认51413，如果和你其他软件有冲突自行修改</p>
 <p><img src="https://i.ibb.co/zs9nnXw/Transmission-1.jpg"></p>
 <h4 id="二、Openwrt软路由设置"><a href="#二、Openwrt软路由设置" class="headerlink" title="二、Openwrt软路由设置"></a>二、Openwrt软路由设置</h4><p>打开<strong>路由器</strong>  <strong>网络</strong>  <strong>防火墙</strong> <strong>基本设置</strong> 中的 <strong>转发</strong>修改为 接受</p>
-<p><img src="https://i.ibb.co/WgVBPN9/Transmission-4.jpg"></p>
+<p><img src="https://ibb.co/fv55scC"></p>
 <p>接下去在<strong>区域</strong> 中修改wan口的配置</p>
 <p><img src="https://i.ibb.co/WgVBPN9/Transmission-3.jpg"></p>
 <p>打开<strong>路由器</strong>  <strong>网络</strong>  <strong>防火墙</strong> <strong>端口转发</strong>里面增加 51413这个端口转发</p>
