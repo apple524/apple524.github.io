@@ -3484,20 +3484,20 @@
 <td><a href="https://blog.mwifi.top/2022/05/29/pce-gaiflame/">炎之大地日版</a></td>
 </tr>
 <tr>
-<td>Armed F (Japan)</td>
-<td>武装战机</td>
+<td><a href="https://blog.mwifi.top/2022/05/29/pce-armedf/">Armed F (Japan)</a></td>
+<td><a href="https://blog.mwifi.top/2022/05/29/pce-armedf/">武装战机</a></td>
 </tr>
 <tr>
-<td>Cross Wiber - Cyber Combat  Police (Japan)</td>
-<td>武装战斗刑事日版</td>
+<td><a href="https://blog.mwifi.top/2022/05/30/pce-crosswiber/">Cross Wiber - Cyber Combat  Police (Japan)</a></td>
+<td><a href="https://blog.mwifi.top/2022/05/30/pce-crosswiber/">武装战斗刑事日版</a></td>
 </tr>
 <tr>
-<td>Turrican (USA)</td>
-<td>外星悍将美版</td>
+<td><a href="https://blog.mwifi.top/2022/05/30/pce-turrican/">Turrican (USA)</a></td>
+<td><a href="https://blog.mwifi.top/2022/05/30/pce-turrican/">外星悍将美版</a></td>
 </tr>
 <tr>
-<td>Fighting Run (Japan)</td>
-<td>铁甲威龙日版</td>
+<td><a href="https://blog.mwifi.top/2022/05/31/pce-fightingrun/">Fighting Run (Japan)</a></td>
+<td><a href="https://blog.mwifi.top/2022/05/31/pce-fightingrun/">铁甲威龙日版</a></td>
 </tr>
 <tr>
 <td>Moto Roader II (Japan) (Alt  1)</td>
@@ -5792,6 +5792,90 @@ sudo apt-get install lsb-core -y
       </tags>
   </entry>
   <entry>
+    <title>武装骑士 Cyber Knight</title>
+    <url>/2022/06/02/pce-cyberknight/</url>
+    <content><![CDATA[<table>
+<thead>
+<tr>
+<th align="center">中文名称</th>
+<th align="center">武装骑士</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">日文名称</td>
+<td align="center">サイバーナイト</td>
+</tr>
+<tr>
+<td align="center">英文名称</td>
+<td align="center">Cyber Knight</td>
+</tr>
+<tr>
+<td align="center">发行厂商</td>
+<td align="center">Tonkin House</td>
+</tr>
+<tr>
+<td align="center">日币售价</td>
+<td align="center">¥6800</td>
+</tr>
+<tr>
+<td align="center">发行日期</td>
+<td align="center">1990-10-12</td>
+</tr>
+</tbody></table>
+<p><img src="https://i.ibb.co/L0GkpZz/Cyber-Knight-Japan.png"></p>
+<p><img src="https://i.ibb.co/QmDTRbC/Cyber-Knight-Japan.png"></p>
+<h4 id="游戏介绍"><a href="#游戏介绍" class="headerlink" title="游戏介绍"></a>游戏介绍</h4><p>武装骑士是 Tonkin House 发行的一款未来派角色扮演游戏。故事发生在 2352 年，SS Swordfish 宇宙飞船奇迹般地逃脱了太空海盗的恶毒袭击。这艘船遭受了巨大的破坏，即将毁灭。船员们别无选择，只能在超空间中惊慌失措，这就是游戏的开始。飞船在太空中某处失踪，大部分船员（包括船长）已经死亡，船上的大部分设备也被毁坏。游戏的目标是控制幸存的船员并返回地球，他们的首要任务是寻找超空间驱动器的替代品。船员们当然会想起在受欢迎的电视连续剧中看到的那位，其中有心爱的船长和他的瓦肯朋友，但它还配备了一名指挥官、一名医生、一名机械师和几名士兵。此外，强大的机甲可用并在游戏中发挥重要作用，尤其是在战斗和户外探索期间。游戏让我们的英雄访问了许多外星世界并解决了许多子任务。游戏的另一个重要组成部分是剑鱼的主计算机云母，它经常为玩家提供有关行星或敌人的有用（或有时无用）信息。游戏内容丰富，有许多系统和行星可供探索，但需要大量的日语知识才能充分享受 武装骑士的乐趣。</p>
+<h4 id="游戏视频"><a href="#游戏视频" class="headerlink" title="游戏视频"></a>游戏视频</h4><iframe src="//player.bilibili.com/player.html?aid=727247835&bvid=BV1wS4y1i7Gr&cid=736005853&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width=100% height="472px"> </iframe>]]></content>
+      <categories>
+        <category>PCE</category>
+      </categories>
+      <tags>
+        <tag>PCE</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>太空战机alpha Darius Alpha</title>
+    <url>/2022/06/03/pce-dariusalpha/</url>
+    <content><![CDATA[<table>
+<thead>
+<tr>
+<th align="center">中文名称</th>
+<th align="center">太空战机alpha</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">日文名称</td>
+<td align="center">ダライアスα</td>
+</tr>
+<tr>
+<td align="center">英文名称</td>
+<td align="center">Darius Alpha</td>
+</tr>
+<tr>
+<td align="center">发行厂商</td>
+<td align="center">NEC</td>
+</tr>
+<tr>
+<td align="center">日币售价</td>
+<td align="center">¥5800</td>
+</tr>
+<tr>
+<td align="center">发行日期</td>
+<td align="center">1990-03-02</td>
+</tr>
+</tbody></table>
+<p><img src="https://i.ibb.co/m9mbYNv/Darius-Alpha-Japan-SG-Enhanced.png"></p>
+<p><img src="https://i.ibb.co/PWb975J/Darius-Alpha-Japan-SG-Enhanced.png"></p>
+<h4 id="游戏介绍"><a href="#游戏介绍" class="headerlink" title="游戏介绍"></a>游戏介绍</h4><p><strong>Darius Alpha</strong>是1990 年为 PCE发布的<em>Darius Plus</em>的促销版本。它是邮购独家商品，可通过寄送 Super Darius 和 Darius Plus 手册中的一对优惠券获得。该卡仅生产了 800 份，使其成为有史以来最稀有且绝对最昂贵的 PC Engine HuCard 之一。这个版本只是一个Boss Rush，玩家一个接一个地面对所有<em>Plus</em> Boss 。</p>
+<h4 id="游戏视频"><a href="#游戏视频" class="headerlink" title="游戏视频"></a>游戏视频</h4><iframe src="//player.bilibili.com/player.html?aid=854723531&bvid=BV1mL4y1K7bF&cid=736780737&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"  width=100% height="472px"> </iframe>]]></content>
+      <categories>
+        <category>PCE</category>
+      </categories>
+      <tags>
+        <tag>PCE</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>死亡月球 Dead Moon</title>
     <url>/2022/05/16/pce-dead-moon/</url>
     <content><![CDATA[<table>
@@ -6493,6 +6577,48 @@ sudo apt-get install lsb-core -y
       </tags>
   </entry>
   <entry>
+    <title>未来赛车2 Moto Roader II</title>
+    <url>/2022/06/01/pce-motoroader2/</url>
+    <content><![CDATA[<table>
+<thead>
+<tr>
+<th align="center">中文名称</th>
+<th align="center">未来赛车2</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">日文名称</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">英文名称</td>
+<td align="center">Moto Roader II</td>
+</tr>
+<tr>
+<td align="center">发行厂商</td>
+<td align="center">Masaya Games</td>
+</tr>
+<tr>
+<td align="center">日币售价</td>
+<td align="center">¥6900</td>
+</tr>
+<tr>
+<td align="center">发行日期</td>
+<td align="center">1989-02-23</td>
+</tr>
+</tbody></table>
+<p><img src="https://i.ibb.co/M9nHnxv/moto-roader-ii.png"></p>
+<p><img src="https://i.ibb.co/1ZnLLGy/Moto-Roader-II-Japan.png"></p>
+<h4 id="游戏介绍"><a href="#游戏介绍" class="headerlink" title="游戏介绍"></a>游戏介绍</h4><p>Moto Roader（欧洲拼写为Motoroader）是一款由NCS为PC-Engine&#x2F;TurboGrafx-16开发的未来赛车游戏。该游戏是包括Moto Roader 2和Moto Roader MC在内的系列中的第一款。值得注意的是，可能有五名玩家同时比赛</p>
+<h4 id="游戏视频"><a href="#游戏视频" class="headerlink" title="游戏视频"></a>游戏视频</h4><iframe src="//player.bilibili.com/player.html?aid=342039331&bvid=BV1t94y1S7V4&cid=735261715&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width=100% height="472px"> </iframe>]]></content>
+      <categories>
+        <category>PCE</category>
+      </categories>
+      <tags>
+        <tag>PCE</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>亨利先生大冒险</title>
     <url>/2022/04/16/pce-mrheli/</url>
     <content><![CDATA[<table>
@@ -7161,6 +7287,48 @@ sudo apt-get install lsb-core -y
 <h4 id="游戏简介"><a href="#游戏简介" class="headerlink" title="游戏简介"></a>游戏简介</h4><p>SonSon II的游戏方式与其前身不同。关卡不再是水平滚动的，其玩法与更传统的平台游戏非常相似。在七个关卡中，孙悟空必须在各种跳跃谜题中生存下来，用金箍棒来击退敌人，并以水果的形式收集金钱。</p>
 <p>一路上，他可以捡起各种有用的物品，这些物品既可以在商店购买，也可以隐藏在关卡中。它们包括：补充孙悟空健康的药物、让他在失去生命后继续前进的神灯、打开门的钥匙、打破某些墙壁的手套以及他可以在 Boss 战中用来飞行的云。此外，如果孙悟空找到卖法杖的人，他可以购买更长更强大的法杖。</p>
 <h4 id="游戏视频"><a href="#游戏视频" class="headerlink" title="游戏视频"></a>游戏视频</h4><iframe src="//player.bilibili.com/player.html?aid=684046797&bvid=BV14U4y1m7Gd&cid=721580585&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width=100% height="472px"> </iframe>]]></content>
+      <categories>
+        <category>PCE</category>
+      </categories>
+      <tags>
+        <tag>PCE</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>太空入侵者 Space Invaders - Fukkatsu  no Hi</title>
+    <url>/2022/06/03/pce-spaceinvaders/</url>
+    <content><![CDATA[<table>
+<thead>
+<tr>
+<th align="center">中文名称</th>
+<th align="center">太空入侵者</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">日文名称</td>
+<td align="center">スペースインベーダーズ 復活の日</td>
+</tr>
+<tr>
+<td align="center">英文名称</td>
+<td align="center">Space Invaders - Fukkatsu  no Hi</td>
+</tr>
+<tr>
+<td align="center">发行厂商</td>
+<td align="center">Taito</td>
+</tr>
+<tr>
+<td align="center">日币售价</td>
+<td align="center">¥5800</td>
+</tr>
+<tr>
+<td align="center">发行日期</td>
+<td align="center">1990-03-02</td>
+</tr>
+</tbody></table>
+<p><img src="https://i.ibb.co/Fzfxk33/Space-Invaders-Fukkatsu-no-Hi-Japan.png"></p>
+<p><img src="https://i.ibb.co/gScfcwS/Space-Invaders-Fukkatsu-no-Hi-Japan.png"></p>
+<h4 id="游戏介绍"><a href="#游戏介绍" class="headerlink" title="游戏介绍"></a>游戏介绍</h4><p>太空入侵者是 Taito 的一款射击游戏，基于街机游戏 Space Invaders。 Fukkatsu no Hi 翻译为“复活之日”，此版本的游戏包括两个版本的 Taito 经典游戏。第一个是最初于 1978 年发布的老式 Space Invaders ，玩家控制位于屏幕底部的大炮并试图阻止下降的外星入侵者形成。第二款游戏名为 Space Invaders Plus，其更新的图形、声音和游戏玩法大量借鉴了 Majestic Twelve（又名 Super Space Invaders ‘91）。就像原版游戏一样，玩家控制位于屏幕底部的 AIT-50 大炮（或游戏后期的 AIF-73CA 宇宙飞船），必须击落一波又一波的外星入侵者。但是这个版本增加了一些额外的东西——外星母舰现在偶尔会掉落临时的能量提升（额外的生命、护盾、寻的导弹、淋浴炸弹、时间冻结等等）。游戏中的每个区域都具有图形变化，例如各种各样的外星入侵者和背景。大炮还配备了护盾，可以在被击倒之前吸收数次命中。</p>
+<h4 id="游戏视频"><a href="#游戏视频" class="headerlink" title="游戏视频"></a>游戏视频</h4><iframe src="//player.bilibili.com/player.html?aid=812131064&bvid=BV1M34y1L7CW&cid=736774950&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"  width=100% height="472px"> </iframe>]]></content>
       <categories>
         <category>PCE</category>
       </categories>
