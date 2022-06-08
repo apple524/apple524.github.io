@@ -1729,8 +1729,8 @@
 <td>雇佣兵</td>
 </tr>
 <tr>
-<td>Sonic The Hedgehog 2</td>
-<td>索尼克2</td>
+<td><a href="https://blog.mwifi.top/2022/06/07/md-sonic2/">Sonic The Hedgehog 2</a></td>
+<td><a href="https://blog.mwifi.top/2022/06/07/md-sonic2/">索尼克2</a></td>
 </tr>
 <tr>
 <td>Sonic The Hedgehog 3</td>
@@ -3693,16 +3693,16 @@
 <td><a href="https://blog.mwifi.top/2022/06/05/pce-jigokumeguri/">地狱小和尚</a></td>
 </tr>
 <tr>
-<td>Die Hard (Japan)</td>
-<td>虎胆龙威</td>
+<td><a href="https://blog.mwifi.top/2022/06/06/pce-diehard/">Die Hard (Japan)</a></td>
+<td><a href="https://blog.mwifi.top/2022/06/06/pce-diehard/">虎胆龙威</a></td>
 </tr>
 <tr>
 <td><a href="https://blog.mwifi.top/2022/06/06/pce-dragonspirit/">Dragon Spirit (Japan)</a></td>
 <td><a href="https://blog.mwifi.top/2022/06/06/pce-dragonspirit/">龙魂</a></td>
 </tr>
 <tr>
-<td>Dragon Saber (Japan) (Alt  1)</td>
-<td>龙之刃</td>
+<td><a href="https://blog.mwifi.top/2022/06/06/pce-dragonsaber/">Dragon Saber (Japan) (Alt  1)</a></td>
+<td><a href="https://blog.mwifi.top/2022/06/06/pce-dragonsaber/">龙之刃</a></td>
 </tr>
 <tr>
 <td>Deep Blue - Kaitei Shinwa  (Japan)</td>
@@ -6235,6 +6235,48 @@ sudo apt-get install lsb-core -y
       </tags>
   </entry>
   <entry>
+    <title>蓝色海底世界 Deep Blue</title>
+    <url>/2022/06/08/pce-deepblue/</url>
+    <content><![CDATA[<table>
+<thead>
+<tr>
+<th align="center">中文名称</th>
+<th align="center">蓝色海底世界</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">日文名称</td>
+<td align="center">ディープブルー 海底神話</td>
+</tr>
+<tr>
+<td align="center">英文名称</td>
+<td align="center">Deep Blue</td>
+</tr>
+<tr>
+<td align="center">发行厂商</td>
+<td align="center">Pack-in-Video</td>
+</tr>
+<tr>
+<td align="center">日币售价</td>
+<td align="center">¥5300</td>
+</tr>
+<tr>
+<td align="center">发行日期</td>
+<td align="center">1989-03-31</td>
+</tr>
+</tbody></table>
+<p><img src="https://i.ibb.co/DpFNmBc/Deep-Blue-Kaitei-Shinwa-Japan.png"></p>
+<p><img src="https://i.ibb.co/0JY3DsK/Deep-Blue-Kaitei-Shinwa-Japan.png"></p>
+<h4 id="游戏介绍"><a href="#游戏介绍" class="headerlink" title="游戏介绍"></a>游戏介绍</h4><p>Deep blue Katei Shinwa（深蓝 - 海底的神话）是 Pack In Video 的一款横版射击游戏。动作发生在海底深处，玩家控制了一艘鱼形机器人潜艇。它的任务是清除所有入侵它的邪恶鱼类怪物的海洋，并通过四个漫长而危险的关卡。无数鱼群和其他海洋生物随机出现，无情地攻击机器鱼。它的第一道防线是一门可以发射小能量爆发的大炮。更多武器可用于潜艇的破坏性奇思妙想 - 蓝月鱼散布在每个阶段，并掉落特殊物品，例如额外的健康、速度提升和新武器（光弹、漩涡切割器或气泡光束）。每种武器最多可升级 3 次，但被击中会降低其威力（以及潜艇的速度）。虽然潜艇只有一个生命，但他的能量水平总是通过他发光的眼睛显示出来——如果它们发出蓝色的光，那么他的身体很好，红色的，事情很快就会变坏。只要不开火，潜艇也会自动（并且缓慢地）补充能量。在每个关卡结束时，玩家都会遇到更卑鄙和更大的生物，包括饥饿的大鱼、巨型水母和卑鄙的鹦鹉螺。</p>
+<h4 id="游戏视频"><a href="#游戏视频" class="headerlink" title="游戏视频"></a>游戏视频</h4><iframe src="//player.bilibili.com/player.html?aid=512366625&bvid=BV1Yg41197nQ&cid=740865924&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width=100% height="472px"> </iframe>]]></content>
+      <categories>
+        <category>PCE</category>
+      </categories>
+      <tags>
+        <tag>PCE</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>兵蜂 Detana!! Twinbee</title>
     <url>/2022/04/27/pce-detanatwinbee/</url>
     <content><![CDATA[<table>
@@ -6305,7 +6347,7 @@ sudo apt-get install lsb-core -y
 </tr>
 </tbody></table>
 <p><img src="https://i.ibb.co/1zKYj94/Die-Hard-Japan.png"></p>
-<p><img src="https://i.ibb.co/WvctVQ2/Jigoku-Meguri-Japan.png"></p>
+<p><img src="https://i.ibb.co/H4LFvp3/Die-Hard-Japan.png"></p>
 <h4 id="游戏介绍"><a href="#游戏介绍" class="headerlink" title="游戏介绍"></a>游戏介绍</h4><p> 虎胆龙威 是一款顶级视角动作游戏，改编自 1988 年上映的同名动作片。游戏讲述了下班后的纽约警察约翰麦克莱恩（布鲁斯威利斯饰）的冒险经历 当他得知一群恐怖分子在洛杉矶的一座摩天大楼里劫持了人质时，他的职业使命就开始了。 在简短的介绍和电影中的图片之后，玩家立即投入行动。 但是，在他有机会进入著名的建筑之前，必须清除许多杂项区域（例如森林和沼泽）。 尽管约翰麦克莱恩赤手空拳地开始了他的任务，但他可以迅速从被击败的敌人身上拿起武器，包括机关枪、火箭发射器和强大的火焰喷射器。 可以调查各种侧面建筑物，并经常隐藏药品包、更强大的武器或防弹背心。 虎胆龙威一共有十个关卡，并且仅限单人游戏。</p>
 <h4 id="游戏视频"><a href="#游戏视频" class="headerlink" title="游戏视频"></a>游戏视频</h4><iframe src="//player.bilibili.com/player.html?aid=939867692&bvid=BV1ZW4y1r7f8&cid=739095895&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width=100% height="472px"> </iframe>]]></content>
       <categories>
@@ -6431,7 +6473,7 @@ sudo apt-get install lsb-core -y
 </tr>
 </tbody></table>
 <p><img src="https://i.ibb.co/ssn0h2C/Dragon-Saber-Japan.png"></p>
-<p><img src="https://i.ibb.co/WvctVQ2/Jigoku-Meguri-Japan.png"></p>
+<p><img src="https://i.ibb.co/6H7xHWd/Dragon-Saber-Japan.png"></p>
 <h4 id="游戏介绍"><a href="#游戏介绍" class="headerlink" title="游戏介绍"></a>游戏介绍</h4><p>龙之刃 是 Namco 的一款垂直射击游戏，由最初于 1990 年发布的同名街机游戏改编而成，本身就是龙魂的续集。游戏发生在遥远的未来，人类日益增长的自我主义和对生命和自然的缺乏尊重导致地球上的混乱，慢慢导致其不可避免的毁灭。怪物和邪恶生物现在在地球上游荡，在绝望的求救中，太阳女神阿里亚请求两名勇敢的骑士休伊和西瑞亚执行凡人所承担的最危险的任务。战士们带着一把神奇的军刀和变成喷火龙的力量，踏上了拯救世界的英雄之旅。 龙之刃 沿用了其前身建立的先例，玩家可以在空中和地面上击中敌人，并且散布在每个关卡周围的彩色蛋让他们有机会增加他们的龙的火力（蓝色蛋）或基础伤害（红蛋）。然而，该游戏在其前传中提供了一些新功能 - 每个玩家现在都可以充电强大的能量爆炸（通过释放开火按钮几秒钟）并且不同类型的龙能量提升已经出现，例如闪电或者 Enery Wings，每一个都有自己的超级攻击！ 龙之刃有8个关卡组成，并具有两个玩家同时游戏。</p>
 <h4 id="游戏视频"><a href="#游戏视频" class="headerlink" title="游戏视频"></a>游戏视频</h4><iframe src="//player.bilibili.com/player.html?aid=897281277&bvid=BV1bA4y1o7aM&cid=739889418&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width=100% height="472px"> </iframe>]]></content>
       <categories>
@@ -6476,6 +6518,48 @@ sudo apt-get install lsb-core -y
 <p><img src="https://i.ibb.co/7nWprxh/Dragon-Spirit-Japan.png"></p>
 <h4 id="游戏介绍"><a href="#游戏介绍" class="headerlink" title="游戏介绍"></a>游戏介绍</h4><p>《龙魂》是南梦宫于 1987 年由同名街机游戏改编而成的垂直射击游戏。米特古尔特王国的公主艾丽西亚被魔蛇王扎维尔绑架。得知她被绑架后，勇敢的骑士阿穆尔前来营救她。年轻的武士祈求上天保佑他踏上征程，当他即将踏上征途之际，他将剑指向天空，一道闪电将他变成了一条强大而伟大的喷火蓝龙。龙魂 使用了其他 Namco 经典作品（例如 Xevious）制定的游戏公式 - 龙可以向空中和地面目标开火，从而为动作提供额外的策略和深度。此外，游戏中散布着两种彩色的魔法蛋——炸弹可以将它们炸开，从而释放出两个能量球，增加力量（红色）或额外头部&#x2F;增加火力（蓝色）。虽然蓝色升级会自动为龙添加一个头部（并将其火力提高到总的三倍），但红色能量球需要在它们之前以三个为一组收集。此外，闪烁的敌人在被杀死时会释放各种特殊物品，从交替的龙形态、加速 (S)、三向射击 (W)、多向射击 (X)、断电（头骨）或额外生命（三个有但是要收集，它们以需要孵化的龙蛋的形式出现）。龙魂一共8个关卡，并且仅限单人游戏。</p>
 <h4 id="游戏视频"><a href="#游戏视频" class="headerlink" title="游戏视频"></a>游戏视频</h4><iframe src="//player.bilibili.com/player.html?aid=727267098&bvid=BV1ES4y1i7Wy&cid=739252321&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width=100% height="472px"> </iframe>]]></content>
+      <categories>
+        <category>PCE</category>
+      </categories>
+      <tags>
+        <tag>PCE</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>地下城探索 Dungeon Explorer</title>
+    <url>/2022/06/08/pce-dungeonexplorer/</url>
+    <content><![CDATA[<table>
+<thead>
+<tr>
+<th align="center">中文名称</th>
+<th align="center">地下城探索</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">日文名称</td>
+<td align="center">ダンジョン エクスプローラー</td>
+</tr>
+<tr>
+<td align="center">英文名称</td>
+<td align="center">Dungeon Explorer</td>
+</tr>
+<tr>
+<td align="center">发行厂商</td>
+<td align="center">Atlus</td>
+</tr>
+<tr>
+<td align="center">日币售价</td>
+<td align="center">¥5800</td>
+</tr>
+<tr>
+<td align="center">发行日期</td>
+<td align="center">1989-03-04</td>
+</tr>
+</tbody></table>
+<p><img src="https://i.ibb.co/1Xvqrzf/Dungeon-Explorer-Japan.png"></p>
+<p><img src="https://i.ibb.co/bWkkxbq/Dungeon-Explorer-Japan.png"></p>
+<h4 id="游戏介绍"><a href="#游戏介绍" class="headerlink" title="游戏介绍"></a>游戏介绍</h4><p>地下城探索 是由 Atlus 开发，Hudson Soft 发行的架空动作冒险游戏。冒险发生在科妮莉亚（又名奥德西亚）陌生的土地上，正值人类与一群邪恶生物之间的战争。邪恶的怪物统治着这个国家，玩家被派去执行一项危险的任务，以取回奥拉石，这是一种强大的魔法神器，制作于几个世纪前，能够为这片土地带来和平。但这块石头深埋在地表之下，隐藏在十四个古老的地下洞穴和地牢中，所有这些都被可怕的生物所守护。玩家必须首先从八个种族&#x2F;职业列表中选择一个角色（战士、盗贼、术士、女巫、吟游诗人、主教、精灵和矮人）。每个战士都有一个射弹武器和一组影响他的力量、魔法力量和移动能力的四种不同属性。魔术在游戏中也扮演着重要角色，玩家可以使用两种法术——白色（防御）和黑色（进攻）。尽管 Dungeon Explorer 具有非常温和的 RPG 元素，但它本质上是线性的，并分为两个主要的动作阶段。头顶世界让玩家有机会与村民交谈、收集信息并与重生的敌人作战，而地牢则有更卑鄙的敌人、致命的陷阱，玩家最终必须击败老板才能收集能量水晶，并增加角色的统计数据和最大的健康。在每个地牢结束时（或死亡时），都会给玩家一个密码来保存他的进度。有趣的是，地下城探索 具有多人游戏选项，同时支持多达五名玩家！</p>
+<h4 id="游戏视频"><a href="#游戏视频" class="headerlink" title="游戏视频"></a>游戏视频</h4><iframe src="//player.bilibili.com/player.html?aid=897282364&bvid=BV1hA4y1o7mt&cid=740899435&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width=100% height="472px"> </iframe>]]></content>
       <categories>
         <category>PCE</category>
       </categories>
