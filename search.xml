@@ -1702,16 +1702,16 @@
 <td>水浒传</td>
 </tr>
 <tr>
-<td>Vapor Trail</td>
-<td>空牙</td>
+<td><a href="https://blog.mwifi.top/2022/06/17/md-vaportrail/">Vapor Trail</a></td>
+<td><a href="https://blog.mwifi.top/2022/06/17/md-vaportrail/">空牙</a></td>
 </tr>
 <tr>
-<td>Vectorman 2</td>
-<td>粒子战士2</td>
+<td><a href="https://blog.mwifi.top/2022/06/17/md-vectorman2/">Vectorman 2</a></td>
+<td><a href="https://blog.mwifi.top/2022/06/17/md-vectorman2/">粒子战士2</a></td>
 </tr>
 <tr>
-<td>Verytex</td>
-<td>决战空间</td>
+<td><a href="https://blog.mwifi.top/2022/06/18/md-verytex/">Verytex</a></td>
+<td><a href="https://blog.mwifi.top/2022/06/18/md-verytex/">决战空间</a></td>
 </tr>
 <tr>
 <td>Vixen 357(CN)</td>
@@ -5691,13 +5691,13 @@ sudo apt-get install lsb-core -y
       </tags>
   </entry>
   <entry>
-    <title>空牙  Vectorman 2</title>
+    <title>粒子战士2  Vectorman 2</title>
     <url>/2022/06/17/md-vectorman2/</url>
     <content><![CDATA[<table>
 <thead>
 <tr>
 <th align="center">中文名称</th>
-<th align="center">空牙</th>
+<th align="center">粒子战士2</th>
 </tr>
 </thead>
 <tbody><tr>
@@ -5723,11 +5723,8 @@ sudo apt-get install lsb-core -y
 </tbody></table>
 <p><img src="https://i.ibb.co/94CmjWv/vectorman2.jpg"></p>
 <p><img src="https://i.ibb.co/j5P346p/Vapor-Trail.jpg"></p>
-<h4 id="游戏介绍"><a href="#游戏介绍" class="headerlink" title="游戏介绍"></a>游戏介绍</h4><p>1999 年，一个只被称为 DAGGER（日版中为Ragnarok）的恐怖组织占领了纽约市，在那里他们侵入了世界各地的军事防御系统，建立了自己的军事指挥部并获得了核导弹发射井的使用权。他们在这个位置上将世界作为人质，并承诺在世界各国政府将他们的权力交给 DAGGER 之前取消他们摧毁地球的威胁。</p>
-<p>一支特种部队空军部队被召集来攻击 DAGGER 并削弱他们在纽约的最强大防御和总部。在那之前，这座城市一直保持沉默。</p>
-<h4 id="游戏玩法"><a href="#游戏玩法" class="headerlink" title="游戏玩法"></a>游戏玩法</h4><p>游戏中有 2 名玩家同时控制喷气式战斗机，在多个关卡中进行战斗。有 3 种类型的喷气机，它们的速度和火力不同。Silph 是最平衡的中档飞机。Valkyrie（以 A-10 Thunderbolt II 为原型）携带最多的火力，而 Seylen 喷气式飞机能够作为最敏捷的战斗机飞行，其火神升级后可以向后射击。整个游戏中都可以进行武器升级，包括寻的导弹、环形枪、火焰喷射器等等。每架喷气机也可以在遇到麻烦时手动激活防护罩。</p>
-<h4 id="武器"><a href="#武器" class="headerlink" title="武器"></a>武器</h4><p>玩家可以在四种不同的标准拾取武器之间进行选择： Vulcan – 玩家的默认武器，它可以直接向前射击，但可以根据选择的喷气式飞机来消灭更多的敌人。炸弹——一种直接射击的爆炸性武器，对所有喷气式飞机都保持相同的射击模式，但升级后发射次数（一次可以发射的次数）会增加。防御者——一种爆炸性的集束射击武器，环绕玩家的喷气式飞机，升级后保持不变，但数量增加很像炸弹。导弹——从喷气式飞机的多个方向发射的制导导弹。与火神类似，导弹根据所使用的喷气式飞机向不同方向发射。</p>
-<p>每架喷气式飞机都配备了一个滚动装置，可以让它们躲避射弹和敌人。每次使用后必须为卷筒重新充电。玩家还可以选择拾取 S-Unit，这是一种武器附件，无论之前拾取什么武器，都可以增强喷气式飞机的射击能力，并且每架喷气式飞机的 S-Unit 攻击都不同于其他。一旦装备了 S-Unit，除非 S-Unit 被引爆，否则玩家将无法使用他们之前的武器。引爆 S-Unit 不会伤害玩家，但会伤害敌人，因为该单位会在巨大而强大的爆炸中引爆。</p>
+<h4 id="游戏介绍"><a href="#游戏介绍" class="headerlink" title="游戏介绍"></a>游戏介绍</h4><p>在上一代中从弹头拯救地球后，Vectorman 的污泥驳船被导弹瞄准并摧毁。Vectorman 逃脱，跳伞降落到地球上与地球上众多的敌人作战；变异 昆虫。Vectorman 必须与变异虫子战斗并找到最可怕的感染源：邪恶的黑寡妇 女王。</p>
+<h4 id="游戏玩法"><a href="#游戏玩法" class="headerlink" title="游戏玩法"></a>游戏玩法</h4><p>游戏玩法与前作类似。Vectorman 有一套不同的武器，包括脉冲光束、能量射击和超级霰弹枪。Vectorman 现在还可以转变为动物形式，例如火蚁、犀牛和排斥攻击的“盾虫”。与最初的Vectorman不同，该游戏中的全关变换不用于与老板战斗，因为这留给了人类形态的 Vectorman。共有22个级别，分为七个部分。</p>
 <h4 id="游戏视频"><a href="#游戏视频" class="headerlink" title="游戏视频"></a>游戏视频</h4><div style="position: relative; padding: 30% 45%;margin-top: 10px;margin-bottom: 10px"><iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" 
 src="//player.bilibili.com/player.html?aid=727576096&bvid=BV1cS4y1v7tu&cid=748739476&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
 </iframe></div>]]></content>
