@@ -1683,8 +1683,8 @@
   <entry>
     <title>Game&amp;Watch改机后游戏列表</title>
     <url>/2022/04/06/g-w-list/</url>
-    <content><![CDATA[<p><a href="https://pan.baidu.com/s/198rvE_Iwsfy6o_bavf9r9A?pwd=teqm">游戏列表文件下载</a>  提取码：teqm      （ <a href="https://blog.mwifi.top/2022/05/25/g-w-list64m/">升级64M内存推荐游戏</a>）</p>
-<p>需要的游戏选“是”，不要的选“否”。第一张表格有汇总，改64M芯片控制在68M，改128M的游戏容量在150M左右，256M的邮箱容量选择400M以内。</p>
+    <content><![CDATA[<p><a href="https://pan.baidu.com/s/1BOBXervqBVTQX283on21RQ?pwd=rayg">游戏列表文件下载</a>  提取码：rayg    </p>
+<p>需要的游戏选“是”，不要的选“否”。第一张表格有汇总，改64M芯片控制在68M，改128M的游戏容量在150M左右，256M的邮箱容量选择380M以内。</p>
 <p>​                                                                  <em>gb里面红代表gbc游戏。不要删除表格里的游戏内容！！！</em></p>
 <h4 id="SEGA-MD"><a href="#SEGA-MD" class="headerlink" title="SEGA MD"></a>SEGA MD</h4><table>
 <thead>
@@ -1714,32 +1714,32 @@
 <td><a href="https://blog.mwifi.top/2022/06/18/md-verytex/">决战空间</a></td>
 </tr>
 <tr>
-<td>Vixen 357(CN)</td>
-<td>特殊部队357(中文)</td>
+<td><a href="https://blog.mwifi.top/2022/06/17/md-vixen357/">Vixen 357(CN)</a></td>
+<td><a href="https://blog.mwifi.top/2022/06/17/md-vixen357/">特殊部队357(中文)</a></td>
 </tr>
 <tr>
 <td><a href="https://blog.mwifi.top/2022/06/10/md-yuuyuuhakusho/">Yuu Yuu Hakusho(CN)</a></td>
 <td><a href="https://blog.mwifi.top/2022/06/10/md-yuuyuuhakusho/">幽游白书-魔强统一战(中文)</a></td>
 </tr>
 <tr>
-<td>Mega Man The Wily Wars</td>
-<td>洛克人合集</td>
+<td><a href="https://blog.mwifi.top/2022/06/19/md-megaman-the-wily-wars/">Mega Man The Wily Wars</a></td>
+<td><a href="https://blog.mwifi.top/2022/06/19/md-megaman-the-wily-wars/">洛克人合集</a></td>
 </tr>
 <tr>
-<td>Mega Turrican</td>
-<td>麦加银河战士</td>
+<td><a href="https://blog.mwifi.top/2022/06/18/md-megaturrican/">Mega Turrican</a></td>
+<td><a href="https://blog.mwifi.top/2022/06/18/md-megaturrican/">麦加银河战士</a></td>
 </tr>
 <tr>
 <td>Monster World IV(CN)</td>
 <td>怪物世界4(中文)</td>
 </tr>
 <tr>
-<td>Musha Aleste</td>
-<td>武者雅士达</td>
+<td><a href="https://blog.mwifi.top/2022/06/20/md-mushaaleste/">Musha Aleste</a></td>
+<td><a href="https://blog.mwifi.top/2022/06/20/md-mushaaleste/">武者雅士达</a></td>
 </tr>
 <tr>
-<td>Phantasy Star 4(CN)</td>
-<td>梦幻之星4(中文)</td>
+<td><a href="https://blog.mwifi.top/2022/06/21/md-phantasystar4/">Phantasy Star 4(CN)</a></td>
+<td><a href="https://blog.mwifi.top/2022/06/21/md-phantasystar4/">梦幻之星4(中文)</a></td>
 </tr>
 <tr>
 <td>Ragnacenty(CN)</td>
@@ -5438,7 +5438,9 @@ sudo apt-get install lsb-core -y
 <h4 id="安装双系统补丁"><a href="#安装双系统补丁" class="headerlink" title="安装双系统补丁"></a>安装双系统补丁</h4><pre><code>git clone https://github.com/BrianPugh/game-and-watch-patch`
 </code></pre>
 <p>至此软件部分的工作完成</p>
-<h4 id="硬件破解"><a href="#硬件破解" class="headerlink" title="硬件破解"></a>硬件破解</h4><p>使用stlinkV2 连接到Game&amp;Watch设备，连接对应引脚如下图所示<br><img src="https://cf-ipfs.com/ipfs/QmeKVi1tCtoYKVUTG7STjBisjvhpt2gy8EC5EBhfxAoxQ4"><br>警告：在连接前请断开电池接口，连接调试器时，请确保至少连接了SWDIO、SWDCLK和GND。在任何情况下都不要将3.3V连接到VDD连接，否则可能会损坏SPI闪存。</p>
+<h4 id="硬件破解"><a href="#硬件破解" class="headerlink" title="硬件破解"></a>硬件破解</h4><p>使用stlinkV2 连接到Game&amp;Watch设备，连接对应引脚如下图所示</p>
+<p><img src="https://i.ibb.co/KDPwG6W/1.jpg"></p>
+<p>警告：在连接前请断开电池接口，连接调试器时，请确保至少连接了SWDIO、SWDCLK和GND。在任何情况下都不要将3.3V连接到VDD连接，否则可能会损坏SPI闪存。</p>
 <h4 id="刷机步骤"><a href="#刷机步骤" class="headerlink" title="刷机步骤"></a>刷机步骤</h4><ol>
 <li>进入game-and-watch-backup程序 备份并破解原始固件</li>
 <li>.&#x2F;1_sanity_check.sh stlink mario(zelda)&#96;<br>   执行健全性检查并确保所有必需的工具都可用 显示Looks good！表示软件都正常部署</li>
@@ -5448,12 +5450,12 @@ sudo apt-get install lsb-core -y
 <li>.&#x2F;5_restore.sh stlink mario(zelda)&#96;<br>  这将恢复原始固件</li>
 </ol>
 <p>以上步骤完成后，会在game-and-watch-backup&#x2F;backups 目录下得到 flash_backup_mario.bin、internal_flash_backup_mario.bin、itcm_backup_mario.bin 三个文件，请妥善保存。</p>
-<h4 id="安装模拟器"><a href="#安装模拟器" class="headerlink" title="安装模拟器"></a>安装模拟器</h4><p>进入 game-and-watch-retro-go模拟器目录<br><img src="https://cf-ipfs.com/ipfs/QmajDf5VqxkxuMAKkfHTrUEoy6ues8hnEmUAx55yRPTKqf"><br>将游戏按照不同的类型放置到相应的游戏目录下面(游戏名字和对应的封面照片文件名相同)<br>修改每个模拟器下面的 json 文件，如下图所示：<br><img src="https://cf-ipfs.com/ipfs/QmcpEGQXnmfzoPa3werUEYtFfUtmj1jhUk67Q6LHFNVjG6"></p>
+<h4 id="安装模拟器"><a href="#安装模拟器" class="headerlink" title="安装模拟器"></a>安装模拟器</h4><p>进入 game-and-watch-retro-go模拟器目录<br><img src="https://i.ibb.co/LYNNxDp/2.jpg"><br>将游戏按照不同的类型放置到相应的游戏目录下面(游戏名字和对应的封面照片文件名相同)<br>修改每个模拟器下面的 json 文件，如下图所示：<br><img src="https://ibb.co/1RkgGhQ"></p>
 <p>确认以上文件都放置正常位置以后就可以开始编译系统了<br>运行以下命令：<br>    make clean<br>    make romdef<br>    make -j8 EXTFLASH_SIZE_MB&#x3D;63 EXTFLASH_OFFSET&#x3D;1048576 INTFLASH_BANK&#x3D;2 CODEPAGE&#x3D;936   COVERFLOW&#x3D;1 GNW_TARGET&#x3D;mario GAME_GENIE&#x3D;1 flash<br>    请根据自身机器调整各项参数<br>    SIZE_MB：扩容后内存容量 如果安装双系统 马里奥机器减去1M，塞尔达机器减去4M，此为原始固件占用容量<br>    INTFLASH_BANK：1 单系统  2 双系统<br>    CODEPAGE：936 - 简体中文  1252 - English  950 - 繁體中文<br>    COVERFLOW: 1 显示封面  0 不显示封面<br>    GAME_GENIE: 1 打开金手指  0 不打开金手指 </p>
 <h4 id="安装双系统补丁-1"><a href="#安装双系统补丁-1" class="headerlink" title="安装双系统补丁"></a>安装双系统补丁</h4><p>进入 game-and-watch-patch 目录安装双系统补丁<br>将game-and-watch-backup 程序备份的系统文件复制到game-and-watch-patch目录下面<br>运行以下命令：<br>    make clean<br>    make PATCH_PARAMS&#x3D;”–device&#x3D;mario –internal-only” flash_patched<br>    make PATCH_PARAMS&#x3D;” –smb1&#x3D;path-to-patched-smb1-rom.nes” flash_patched</p>
 <p>至此全部安装工作完成</p>
-<p><img src="https://cf-ipfs.com/ipfs/QmYLZd1J59s1a48mKdpJxxSTAB1p5zijnbHqppXiQdiyKa"></p>
-<p><img src="https://cf-ipfs.com/ipfs/QmbSoSURpJjGVWNa2HEApHyjGffa5okxop8uLo8m74Y997"></p>
+<p><img src="https://ibb.co/ZTbgpPR"></p>
+<p><img src="https://ibb.co/rtydYv5"></p>
 <p>感谢以下资料：<br>(<a href="https://github.com/kbeckmann/game-and-watch-retro-go">https://github.com/kbeckmann/game-and-watch-retro-go</a>)<br>(<a href="https://github.com/olderzeus/game-and-watch-retro-go">https://github.com/olderzeus/game-and-watch-retro-go</a>)<br>(<a href="https://github.com/BrianPugh/game-and-watch-patch">https://github.com/BrianPugh/game-and-watch-patch</a>)</p>
 ]]></content>
       <categories>
@@ -5603,6 +5605,51 @@ sudo apt-get install lsb-core -y
       </tags>
   </entry>
   <entry>
+    <title>新乞丐王子  Beggar Prince</title>
+    <url>/2022/06/22/md-beggarprince/</url>
+    <content><![CDATA[<table>
+<thead>
+<tr>
+<th align="center">中文名称</th>
+<th align="center">新乞丐王子</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">日文名称</td>
+<td align="center">セガハードヒストリア</td>
+</tr>
+<tr>
+<td align="center">英文名称</td>
+<td align="center">Beggar Prince</td>
+</tr>
+<tr>
+<td align="center">发行厂商</td>
+<td align="center">全崴（台湾）</td>
+</tr>
+<tr>
+<td align="center">日币售价</td>
+<td align="center">¥8400</td>
+</tr>
+<tr>
+<td align="center">发行日期</td>
+<td align="center">2006-05-22</td>
+</tr>
+</tbody></table>
+<p><img src="https://i.ibb.co/yygMF0D/Beggar-Prince.png"></p>
+<p><img src="https://i.ibb.co/ZX2L4TG/Beggar-Prince-1.jpg"></p>
+<h4 id="游戏介绍"><a href="#游戏介绍" class="headerlink" title="游戏介绍"></a>游戏介绍</h4><p>《新乞丐王子》是台湾 全崴 在 世嘉 Mega Drive&#x2F;Genesis和PC推出的冒险游戏。它最初于 1996 年由 C&amp;E Inc. 为Sega Mega Drive&#x2F;Genesis发布，后来于 1998 年移植并在PC上发布。</p>
+<p>Sega Genesis 版本的英文翻译由北美公司Super Fighter Team制作。原型版本于 2005 年 8 月 20 日在加利福尼亚州伯林盖姆的经典游戏博览会上首次向公众展示。已完成的游戏于 2006 年 5 月 22 日开始以每份 40 美元的价格向预购客户发货。乞丐王子是世嘉创世纪自 1998 年以来在北美商业发行的第一款游戏。</p>
+<h4 id="游戏视频"><a href="#游戏视频" class="headerlink" title="游戏视频"></a>游戏视频</h4><div style="position: relative; padding: 30% 45%;margin-top: 10px;margin-bottom: 10px"><iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" 
+src="//player.bilibili.com/player.html?aid=512666381&bvid=BV1Wg411X7in&cid=752659742&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe></div>]]></content>
+      <categories>
+        <category>MD</category>
+      </categories>
+      <tags>
+        <tag>MD</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>洛克人合集 Mega Man The Wily Wars</title>
     <url>/2022/06/20/md-megaman-the-wily-wars/</url>
     <content><![CDATA[<table>
@@ -5738,6 +5785,103 @@ src="//player.bilibili.com/player.html?aid=512638178&bvid=BV15g411X78W&cid=75192
       </tags>
   </entry>
   <entry>
+    <title>梦幻之星2 Phantasy Star2</title>
+    <url>/2022/06/24/md-phantasystar2/</url>
+    <content><![CDATA[<table>
+<thead>
+<tr>
+<th align="center">中文名称</th>
+<th align="center">梦幻之星2</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">日文名称</td>
+<td align="center">ファンタシースターII 还らざる时の终わりに</td>
+</tr>
+<tr>
+<td align="center">英文名称</td>
+<td align="center">Phantasy Star 2</td>
+</tr>
+<tr>
+<td align="center">发行厂商</td>
+<td align="center">SEGA</td>
+</tr>
+<tr>
+<td align="center">日币售价</td>
+<td align="center">¥8400</td>
+</tr>
+<tr>
+<td align="center">发行日期</td>
+<td align="center">1989-03-21</td>
+</tr>
+</tbody></table>
+<p><img src="https://i.ibb.co/zh3HKgD/Phantasy-Star2.jpg"></p>
+<p><img src="https://i.ibb.co/GkCvgCf/Phantasy-Star2-1.jpg"></p>
+<h4 id="游戏介绍"><a href="#游戏介绍" class="headerlink" title="游戏介绍"></a>游戏介绍</h4><p>仙女座星系深处的某处是大陵五星系统. 母星 Algol（在时间线的这一点上称为“Algo”）有三颗行星围绕它运行。首先是政府所在地棕榈（“Palma”）。总督、财务主管和伟大的思想家居住在巨大的象牙塔中，远离日常生活的喧嚣。接下来是闪亮的宝石Mota（“Motavia”）。曾经是一个充满蚁狮的干燥沙漠星球，莫塔已经变成了一个蓝色和绿色的热带天堂。圆顶农场种植农作物，水被调节到筑坝的河流中。莫塔的生活是甜蜜、平静和轻松的。人们拥有他们想要的一切，不需要工作。最远的是冰行星Dezo（“Dezoris”）。关于这个神秘而黑暗的星球知之甚少。</p>
+<p>距离上一款游戏中 Alis 和她的朋友们将 Algo 从邪恶的 Lassic 中解放出来已经一千年了；此后，Algo 在名为 Mother Brain 的巨型计算机的照料下蓬勃发展。母脑管理着改造了 Mota的 Climatrol 塔、生物系统实验室以及所有其他提供 Mota 人民所需的一切的东西。</p>
+<p>游戏开始时，角色 Rolf 回忆起他一直在做的一个奇怪的噩梦。在梦中，一个罗尔夫不认识的年轻女孩——但她长得像阿里斯——正在与恶魔作战。最后，就在恶魔杀死她之前，罗尔夫醒了。罗尔夫从他位于莫塔首府帕西奥的家中前往中央塔楼与莫塔的政府首脑会面，以接受他的最新任务。</p>
+<p>第一个威胁是危险的生物怪物（生物改变的动物）的增加。罗尔夫与他的同伴 Nei 出发，一个有着猫一样特征的人形生物，在其他六个人的陪同下进行调查，每个人都有不同但相同的目的。一路上，这群人发现了一个名为 Neifirst 的人类生物混合体，他透露 Nei 的起源与她自己的相同。作为生物怪物的一部分，她是社会的弃儿，这使她厌恶人类，并因此破坏了莫塔的气候控制系统和生物系统实验室。Nei 与 Neifirst 对抗并与她进行一对一的战斗，但被击败并被杀。痛苦的罗尔夫和剩下的小队打败了 Neifirst，导致生物系统实验室自毁并结束了 Mota 的 Biomonster 危害。</p>
+<p>然而，这引发了另一起事件：实验室的爆炸损坏了 Climatrol 设备，并导致中央湖，即莫塔的住宅水库，被水溢出。为了防止一场大洪水，罗尔夫和他的朋友们决定打开周围的四座水坝。在解锁最后一个后，他们被大脑妈妈的安全机器人俘虏，被指控造成环境灾难，并在 Gaira 卫星上被判处死刑。然而，卫星发生故障并与 Palm 相撞，两者都被摧毁。罗尔夫一行人在紧要关头被太空海盗泰勒救出。</p>
+<p>现在，该系统最受通缉的罪犯，被指责为 Palm 的破坏和其人员的死亡，该组织登上了 Mota 最后剩下的航天器——一个太空计划的遗产，现在已经成为废墟——给神秘而危险的 Dezo。埃斯珀大厦位于地球的一个遥远角落：到达它后，罗尔夫将传说中的卢兹从沉睡中唤醒。路兹揭示了罗尔夫过去的秘密，以及与阿尔戈现在面临的命运和毁灭有关的大脑母亲的黑暗秘密。为了拯救系统，英雄们寻求恢复强大的 Nei 武器库，在四个隐藏的地牢中发现，能够击败宇宙飞船 Noah 上的敌人，大脑母亲所在的地方。</p>
+<p>最终发现，罗尔夫最初的噩梦中的恶魔——黑暗力量，一千年前拉西克的真正腐败者和阿利斯的敌人——已经腐蚀了诺亚，并且是罗尔夫面临的每一个威胁的幕后黑手，包括大脑母亲本身。罗尔夫面对这两个邪恶实体并击败了他们。最后一战结束后，路兹提醒他船上还有人：他们是地球上剩下的幸存者。他们透露，他们创造了大脑母亲以牺牲 Algo 的资源来满足他们贪婪的生活方式，英雄和地球人之间的战斗随之而来。比赛以未揭晓的结果结束。</p>
+<h4 id="游戏视频"><a href="#游戏视频" class="headerlink" title="游戏视频"></a>游戏视频</h4><div style="position: relative; padding: 30% 45%;margin-top: 10px;margin-bottom: 10px"><iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" 
+src="//player.bilibili.com/player.html?aid=982754417&bvid=BV1bt4y1a7yn&cid=754317080&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe></div>]]></content>
+      <categories>
+        <category>MD</category>
+      </categories>
+      <tags>
+        <tag>MD</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>梦幻之星3 Phantasy Star3</title>
+    <url>/2022/06/24/md-phantasystar3/</url>
+    <content><![CDATA[<table>
+<thead>
+<tr>
+<th align="center">中文名称</th>
+<th align="center">梦幻之星2</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">日文名称</td>
+<td align="center">ファンタシースターIII</td>
+</tr>
+<tr>
+<td align="center">英文名称</td>
+<td align="center">Phantasy Star 3</td>
+</tr>
+<tr>
+<td align="center">发行厂商</td>
+<td align="center">SEGA</td>
+</tr>
+<tr>
+<td align="center">日币售价</td>
+<td align="center">¥8400</td>
+</tr>
+<tr>
+<td align="center">发行日期</td>
+<td align="center">1990-04-21</td>
+</tr>
+</tbody></table>
+<p><img src="https://i.ibb.co/WpjTvqx/Phantasy-Star-III.jpg"></p>
+<h4 id="游戏介绍"><a href="#游戏介绍" class="headerlink" title="游戏介绍"></a>游戏介绍</h4><p>在游戏开始的一千年前，两个派系——一个由剑士奥拉基奥领导，另一个由女术士拉亚领导——发生了激烈的冲突。当两位领导人会面停战时，他们试图和平，但不久之后他们都神秘地消失了。这使两个派别陷入了危险的境地，因为每个派系都指责对方为其领导人的失踪负责。Orakians和Layans之间的所有通信都被暂停，他们各自的世界之间的旅行被禁止，两个群体在战争的边缘摇摇欲坠。</p>
+<p>玩家在与两个月前冲上兰登海岸的神秘失忆症玛娅结婚的那天，控制了奥拉克王国兰登王国的王储里斯。</p>
+<p>在仪式上，一条龙（被认定为拉扬人）突然出现并抢走了玛雅，这似乎是拉扬人和奥拉克人冲突的明显升级。在 Rhys 寻找 Maia 的过程中，他为自己的事业招募了各种角色。最终，玛雅被揭露为 Cille 王国的公主 Layan，而她的绑架实际上是她的人民的一次营救尝试，他们认为她是被“敌对的”奥拉基人从他们手中夺走的。</p>
+<p>后来在游戏中透露，这两个派系都是 Algo System 的行星 Palm 的幸存者的后裔——该行星在上一场游戏的事件中被摧毁——并且他们不同的王国是大型殖民宇宙飞船的一部分。</p>
+<p>历经三代，双方阵营混杂，他们的后代发现，不同王国之间的所有冲突都是由前作的主要对手黑暗力量引起的，在实际上发生在1000年后的最终决战中被击败系列中下一场比赛的事件。</p>
+<h4 id="游戏视频"><a href="#游戏视频" class="headerlink" title="游戏视频"></a>游戏视频</h4><div style="position: relative; padding: 30% 45%;margin-top: 10px;margin-bottom: 10px"><iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" 
+src="//player.bilibili.com/player.html?aid=427856903&bvid=BV1CG411s7Y9&cid=755205062&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe></div>]]></content>
+      <categories>
+        <category>MD</category>
+      </categories>
+      <tags>
+        <tag>MD</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>梦幻之星4 Phantasy Star 4</title>
     <url>/2022/06/21/md-phantasystar4/</url>
     <content><![CDATA[<table>
@@ -5784,6 +5928,52 @@ src="//player.bilibili.com/player.html?aid=555208568&bvid=BV1ov4y1g79L&cid=75213
       </tags>
   </entry>
   <entry>
+    <title>火箭骑士 Rocket Knight</title>
+    <url>/2022/06/23/md-rocketknight/</url>
+    <content><![CDATA[<table>
+<thead>
+<tr>
+<th align="center">中文名称</th>
+<th align="center">火箭骑士</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">日文名称</td>
+<td align="center">セガハードヒストリア</td>
+</tr>
+<tr>
+<td align="center">英文名称</td>
+<td align="center">Rocket Knight</td>
+</tr>
+<tr>
+<td align="center">发行厂商</td>
+<td align="center">全崴（台湾）</td>
+</tr>
+<tr>
+<td align="center">日币售价</td>
+<td align="center">¥8400</td>
+</tr>
+<tr>
+<td align="center">发行日期</td>
+<td align="center">1993-08-06</td>
+</tr>
+</tbody></table>
+<p><img src="https://i.ibb.co/Sfm7Xtv/Rocket-Knight.jpg"></p>
+<p><img src="https://i.ibb.co/1sfhD9n/Rocket-Knight1.jpg"></p>
+<h4 id="游戏介绍"><a href="#游戏介绍" class="headerlink" title="游戏介绍"></a>游戏介绍</h4><p>Zephyrus的第一位国王（在国际手册中被称为Zebulos），El Zephyrus（国际上称为El Zebulos）带领他的氏族击败了一个邪恶的帝国，该帝国建造了一艘名为猪星的星舰，拥有毁灭行星的力量。知道猪星会被邪恶追捕，国王神奇地封印了星舰并保护了“封印的钥匙”，让他的皇室世代守护和传递，并组建了一支被称为火箭骑士保护王国。大约在这个时候，三船三十罗收养了一个名叫斯帕克斯特的孤儿；国王的朋友，“火箭骑士”的现任领袖。Sparkster 在很小的时候就被训练成为火箭骑士。</p>
+<p>在游戏事件中，泽弗鲁斯王国遭到了德沃廷多斯帝国的袭击，该帝国由前来寻找封印钥匙的帝魔古斯·德沃廷多斯率领。Sparkster 前往 Zephyrus 城堡寻找绑架雪莉公主的 Axel Gear，而雪莉公主正是知道钥匙位置的人。[5]在 Sparkster 能够抓住 Axel 之前，Axel 逃进一艘大型飞艇并将 Sparkster 吹到附近的沙漠中，促使 Sparkster 追逐 Axel。Sparkster最终到达了Devotindos王国，并到达Devontindos城堡与Devilgus对峙。Sparkster 释放了 Sherry，但获得钥匙的 Devilgus 逃到太空到达猪星。雪莉对 Sparkster 的火箭背包施了一个咒语，让他可以追逐恶魔。在猪星与魔王一战后，魔王被揭露为机器人；无论哪种方式，Sparkster 都设法击败了他。在与 Axel Gear 进行混战后，Sparkster 最终以真正的形式面对了 Devilgus。Sparkster 击败了 Devilgus，导致猪星爆炸。</p>
+<p>Sparkster 在附近的逃生舱中逃脱，但 Devilgus 试图在最后一搏中杀死逃生舱中的 Sparkster。Devilgus 最终在进入 Elhorn 的大气层时燃烧殆尽。Sparkster 在 Zephyrus 安全着陆，将雪莉公主与 Zebulos 国王重聚，然后飞往别处。</p>
+<h4 id="游戏视频"><a href="#游戏视频" class="headerlink" title="游戏视频"></a>游戏视频</h4><div style="position: relative; padding: 30% 45%;margin-top: 10px;margin-bottom: 10px"><iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" 
+src="//player.bilibili.com/player.html?aid=600164953&bvid=BV1pB4y1s7S4&cid=753488087&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe></div>]]></content>
+      <categories>
+        <category>MD</category>
+      </categories>
+      <tags>
+        <tag>MD</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>索尼克2  Sonic The Hedgehog 2</title>
     <url>/2022/06/07/md-sonic2/</url>
     <content><![CDATA[<table>
@@ -5818,6 +6008,49 @@ src="//player.bilibili.com/player.html?aid=555208568&bvid=BV1ov4y1g79L&cid=75213
 <p><img src="https://i.ibb.co/6sj5JcX/Sonic-The-Hedgehog-2.jpg"></p>
 <h4 id="游戏介绍"><a href="#游戏介绍" class="headerlink" title="游戏介绍"></a>游戏介绍</h4><p>Sonic the Hedgehog 2是一款横向卷轴 平台游戏。它的故事与第一部刺猬索尼克（ 1991）相似：疯狂的科学家Robotnik 博士寻找混沌翡翠为他的空间站“死亡之蛋”提供动力，并诱捕了西岛动物居民。作为刺猬索尼克，玩家踏上了收集混沌翡翠并阻止机器人尼克的旅程。玩家角色可以跑、跳、蹲和蜷缩成球进行攻击。Sonic 2引入了旋转冲刺，它允许玩家在静止时卷曲以提高速度，Miles “Tails” Prower，一只有两条尾巴的狐狸，充当 Sonic 的伙伴。默认情况下，单人同时控制 Sonic 和 Tails；第二个玩家可以随时加入并单独控制Tails。玩家还可以选择单独扮演索尼克或尾巴。</p>
 <h4 id="游戏视频"><a href="#游戏视频" class="headerlink" title="游戏视频"></a>游戏视频</h4><iframe src="//player.bilibili.com/player.html?aid=982267789&bvid=BV1dt4y1n7bd&cid=739903277&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width=100% height="472px"> </iframe>]]></content>
+      <categories>
+        <category>MD</category>
+      </categories>
+      <tags>
+        <tag>MD</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>茂密森林 Tanglewood</title>
+    <url>/2022/06/25/md-tanglewood/</url>
+    <content><![CDATA[<table>
+<thead>
+<tr>
+<th align="center">中文名称</th>
+<th align="center">茂密森林</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">日文名称</td>
+<td align="center">ファンタシースターIII</td>
+</tr>
+<tr>
+<td align="center">英文名称</td>
+<td align="center">Tanglewood</td>
+</tr>
+<tr>
+<td align="center">发行厂商</td>
+<td align="center">Mega Cat Studios</td>
+</tr>
+<tr>
+<td align="center">日币售价</td>
+<td align="center">¥8400</td>
+</tr>
+<tr>
+<td align="center">发行日期</td>
+<td align="center">1990-04-21</td>
+</tr>
+</tbody></table>
+<p><img src="https://i.ibb.co/jzZhgVq/Tanglewood.jpg"></p>
+<h4 id="游戏介绍"><a href="#游戏介绍" class="headerlink" title="游戏介绍"></a>游戏介绍</h4><p>一个动作游戏，其中角色“Nymn”看起来像一只狐狸，作为主角具有强烈的解谜元素。<br>“尼姆”是没有战斗能力的弱者。<br>在舞台上利用特殊能力和岩石等物体进行捕捉。</p>
+<h4 id="游戏视频"><a href="#游戏视频" class="headerlink" title="游戏视频"></a>游戏视频</h4><div style="position: relative; padding: 30% 45%;margin-top: 10px;margin-bottom: 10px"><iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" 
+src="//player.bilibili.com/player.html?aid=600312263&bvid=BV1qB4y1p74M&cid=755521195&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe></div>]]></content>
       <categories>
         <category>MD</category>
       </categories>
