@@ -1684,6 +1684,9 @@
     <title>Game&amp;Watch改机后游戏列表</title>
     <url>/2022/04/06/g-w-list/</url>
     <content><![CDATA[<p><a href="https://pan.baidu.com/s/1BOBXervqBVTQX283on21RQ?pwd=rayg">游戏列表文件下载</a>  提取码：rayg    </p>
+<p><a href="https://blog.mwifi.top/2022/05/25/g-w-list64m/">64M推荐游戏列表</a>  </p>
+<p><a href="https://blog.mwifi.top/2022/05/25/g-w-list128m/">128M推荐游戏列表</a></p>
+<p><a href="https://blog.mwifi.top/2022/05/25/g-w-list256m/">256M推荐游戏列表</a></p>
 <p>需要的游戏选“是”，不要的选“否”。第一张表格有汇总，改64M芯片控制在68M，改128M的游戏容量在150M左右，256M的邮箱容量选择380M以内。</p>
 <p>​                                                                  <em>gb里面红代表gbc游戏。不要删除表格里的游戏内容！！！</em></p>
 <h4 id="SEGA-MD"><a href="#SEGA-MD" class="headerlink" title="SEGA MD"></a>SEGA MD</h4><table>
@@ -1750,8 +1753,8 @@
 <td>火箭骑士2</td>
 </tr>
 <tr>
-<td>Rocket Knight</td>
-<td>火箭骑士</td>
+<td><a href="https://blog.mwifi.top/2022/06/22/md-rocketknight/">Rocket Knight</a></td>
+<td><a href="https://blog.mwifi.top/2022/06/22/md-rocketknight/">火箭骑士</a></td>
 </tr>
 <tr>
 <td>Rolling Thunder 2</td>
@@ -1858,8 +1861,8 @@
 <td>索尼克3D</td>
 </tr>
 <tr>
-<td>Tanglewood</td>
-<td>茂密森林</td>
+<td><a href="https://blog.mwifi.top/2022/06/25/md-tanglewood/">Tanglewood</a></td>
+<td><a href="https://blog.mwifi.top/2022/06/25/md-tanglewood/">茂密森林</a></td>
 </tr>
 <tr>
 <td>Mad Stalker - Full Metal  Forth</td>
@@ -1870,16 +1873,16 @@
 <td>大航海时代(中文)</td>
 </tr>
 <tr>
-<td>Phantasy Star2(CN)</td>
-<td>梦幻之星2(中文)</td>
+<td><a href="https://blog.mwifi.top/2022/06/23/md-phantasystar2/">Phantasy Star2(CN)</a></td>
+<td><a href="https://blog.mwifi.top/2022/06/23/md-phantasystar2/">梦幻之星2(中文)</a></td>
 </tr>
 <tr>
-<td>Phantasy Star3(CN)</td>
-<td>梦幻之星3(中文)</td>
+<td><a href="https://blog.mwifi.top/2022/06/23/md-phantasystar3/">Phantasy Star3(CN)</a></td>
+<td><a href="https://blog.mwifi.top/2022/06/23/md-phantasystar3/">梦幻之星3(中文)</a></td>
 </tr>
 <tr>
-<td>Beggar Prince(CN)</td>
-<td>新乞丐王子(CN)</td>
+<td><a href="https://blog.mwifi.top/2022/06/21/md-beggarprince/">Beggar Prince(CN)</a></td>
+<td><a href="https://blog.mwifi.top/2022/06/21/md-beggarprince/">新乞丐王子(CN)</a></td>
 </tr>
 </tbody></table>
 <h4 id="FC"><a href="#FC" class="headerlink" title="FC"></a>FC</h4><table>
@@ -4177,8 +4180,8 @@
   <entry>
     <title>Game&amp;Watch改机128M容量游戏列表</title>
     <url>/2022/05/25/g-w-list128m/</url>
-    <content><![CDATA[<p>Game&amp;Watch改机64M容量后推荐游戏列表，包含7类模拟器200多个游戏</p>
-<p><img src="https://i.ibb.co/2qN3TKy/128M.png"></p>
+    <content><![CDATA[<p>Game&amp;Watch改机128M容量后推荐游戏列表</p>
+<p><img src="https://i.ibb.co/2qN3TKy/128M.png">{:height&#x3D;”100%” width&#x3D;”100%”}</p>
 ]]></content>
       <categories>
         <category>Game&amp;Watch</category>
@@ -4190,8 +4193,8 @@
   <entry>
     <title>Game&amp;Watch改机256M容量游戏列表</title>
     <url>/2022/05/25/g-w-list256m/</url>
-    <content><![CDATA[<p>Game&amp;Watch改机64M容量后推荐游戏列表，包含7类模拟器200多个游戏</p>
-<p><img src="https://i.ibb.co/SQZMXQd/256M.png"></p>
+    <content><![CDATA[<p>Game&amp;Watch改机256M容量后推荐游戏列表</p>
+<p><img src="https://i.ibb.co/SQZMXQd/256M.png">{:height&#x3D;”100%” width&#x3D;”100%”}</p>
 ]]></content>
       <categories>
         <category>Game&amp;Watch</category>
@@ -4204,7 +4207,7 @@
     <title>Game&amp;Watch改机64M容量游戏列表</title>
     <url>/2022/05/25/g-w-list64m/</url>
     <content><![CDATA[<p>Game&amp;Watch改机64M容量后推荐游戏列表，包含7类模拟器200多个游戏</p>
-<p><img src="https://i.ibb.co/xzQJSQX/64M.png"></p>
+<p><img src="https://i.ibb.co/xzQJSQX/64M.png">{:height&#x3D;”100%” width&#x3D;”100%”}</p>
 ]]></content>
       <categories>
         <category>Game&amp;Watch</category>
@@ -6034,7 +6037,7 @@ src="//player.bilibili.com/player.html?aid=600164953&bvid=BV1pB4y1s7S4&cid=75348
 <p><img src="https://i.ibb.co/8N6p23R/Soldiers-of-Fortune1.jpg"></p>
 <h4 id="游戏介绍"><a href="#游戏介绍" class="headerlink" title="游戏介绍"></a>游戏介绍</h4><p>这款游戏移植自Amiga主机，原作叫《The Chaos Engine》。<br>移植到Mega Driver(欧)和 Genesis(日美)后，分别叫《The Chaos Engine》和《Soldiers of Fortune》。<br>也就是《混合引擎》(欧)和《雇佣兵》(美)。</p>
 <h4 id="游戏视频"><a href="#游戏视频" class="headerlink" title="游戏视频"></a>游戏视频</h4><div style="position: relative; padding: 30% 45%;margin-top: 10px;margin-bottom: 10px"><iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" 
-src="//player.bilibili.com/player.html?aid=600312263&bvid=BV1qB4y1p74M&cid=755521195&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+src="//player.bilibili.com/player.html?aid=597804019&bvid=BV1bB4y1q7SM&cid=756053602&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
 </iframe></div>]]></content>
       <categories>
         <category>MD</category>
